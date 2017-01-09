@@ -1,0 +1,36 @@
+Applications Memory Usage (kB):
+Uptime: 14822637 Realtime: 24873394
+
+** MEMINFO in pid 27329 [com.jayktec.CityWowzer] **
+                         Shared  Private     Heap     Heap     Heap
+                   Pss    Dirty    Dirty     Size    Alloc     Free
+                ------   ------   ------   ------   ------   ------
+       Native       12       12       12    30940    24487     1485
+       Dalvik     7234     8492     6756    11715     7189     4526
+       Cursor        0        0        0                           
+       Ashmem        0        0        0                           
+    Other dev     1421       52     1416                           
+     .so mmap     7166     2548     2660                           
+    .jar mmap        0        0        0                           
+    .apk mmap       63        0        0                           
+    .ttf mmap        0        0        0                           
+    .dex mmap      896        0       20                           
+   Other mmap     2037       64      248                           
+      Unknown    21990      228    21984                           
+        TOTAL    40819    11396    33096    42655    31676     6011
+ 
+ Objects
+               Views:       31         ViewRootImpl:        1
+         AppContexts:        2           Activities:        1
+              Assets:        5        AssetManagers:        5
+       Local Binders:       20        Proxy Binders:       26
+    Death Recipients:        2
+     OpenSSL Sockets:        0
+ 
+ SQL
+         MEMORY_USED:        0
+  PAGECACHE_OVERFLOW:        0          MALLOC_SIZE:       62
+ 
+ 
+ Asset Allocations
+    zip:/data/app/com.jayktec.CityWowzer-2.apk:/assets/Multicolore.otf: 13K

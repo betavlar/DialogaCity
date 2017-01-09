@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LiveSightGuidance</string>
+    <string name="title_activity_main">LiveSight guidance</string>
+
+    <string name="label_button_stoplivesight">Stop LiveSight</string>
+    <string name="label_button_startlivesight">Start LiveSight</string>
+    <string name="label_button_addobject">Add Object</string>
+
+</resources>

@@ -1,0 +1,99 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.jayktec.DialogaCity.LoginCityWowzer"
+    android:background="@drawable/fondo_borde_login"
+    android:gravity="center">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imagenLogo"
+                android:background="@drawable/logo02"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:hint="@string/login_hint_email"
+                android:id="@+id/loginTextoEmail"
+                android:background="@drawable/rectangulo"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/imagenLogo"
+                android:layout_marginTop="20dp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="@string/login_hint_password"
+                android:id="@+id/loginTextoPassword"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/loginTextoEmail"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="@drawable/rectangulo"
+                android:textColor="@android:color/black" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loginTextoPassword"
+                android:id="@+id/botonera"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_boton_ok"
+                    android:id="@+id/loginBotonAceptar"
+                    android:drawableLeft="@android:drawable/star_on"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentStart="true" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/login_boton_registro"
+                    android:id="@+id/LoginBotonRegistrarse"
+                    android:drawableLeft="@android:drawable/ic_input_add"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentEnd="true" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="94dp"
+                android:layout_height="94dp"
+                android:id="@+id/imagenLogin"
+                android:src="@drawable/wowzie"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/botonera"
+                android:layout_marginTop="20dp"
+                android:focusableInTouchMode="false"
+                android:focusable="true"
+                android:layout_gravity="center" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

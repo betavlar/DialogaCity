@@ -1,0 +1,224 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="wrap_content"
+    android:layout_height="wrap_content" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:clickable="false"
+    android:background="@drawable/cuadro01">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/logo"
+        android:id="@+id/VentanaConsultaEtiqIcono"
+        android:text="@string/consultar_cabecera"
+        android:autoText="false"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:layout_marginLeft="20dp" />
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:fillViewport="true"
+        android:layout_below="@+id/VentanaConsultaEtiqIcono"
+        android:paddingBottom="40dp"
+        android:background="@android:color/transparent"
+        android:clickable="false">
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/componenteGrupo">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@android:color/black"
+                android:id="@+id/VentanaConsultaTextoFecha"
+                android:layout_height="wrap_content"
+                android:text="@string/consultar_valor_fecha"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/consultar_etiqueta_comentario"
+                android:textColor="@android:color/black"
+                android:id="@+id/VentanaConsultaEtiqComentario"
+                android:layout_below="@+id/VentanaConsultaTextoFecha"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:id="@+id/VentanaConsultaTextoComentario"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:text="@string/consultar_valor_comentario"
+                android:layout_below="@+id/VentanaConsultaEtiqComentario"
+                android:layout_marginLeft="10dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/grupoProgreso"
+                android:layout_below="@+id/VentanaConsultaTextoComentario"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/subGrupo1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/consultar_etiqueta_progreso"
+                        android:id="@+id/etiquetaProgreso"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="4dp"
+                        android:textColor="@android:color/black"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/VentanaConsultaTextoEstado"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginRight="4dp"
+                        android:textColor="@android:color/black"
+                        android:text="@string/consultar_valor_estado"
+                        android:layout_marginLeft="10dp"
+                        android:layout_below="@+id/etiquetaProgreso" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/VentanaConsultaImagenProgreso"
+                    android:src="@drawable/pendiente"
+                    android:layout_toRightOf="@+id/subGrupo1"
+                    android:layout_alignBottom="@+id/subGrupo1" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/consultar_etiqueta_imagen"
+                android:id="@+id/VentanaConsultaBuscarImagen"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@+id/grupoProgreso"
+                android:clickable="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/VentanaConsultaImgNo"
+                android:layout_alignTop="@+id/VentanaConsultaBuscarImagen"
+                android:layout_alignBottom="@+id/VentanaConsultaBuscarImagen"
+                android:layout_toRightOf="@+id/VentanaConsultaBuscarImagen"
+                android:background="@android:drawable/presence_offline" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/VentanaConsultaImgSi"
+                android:layout_alignTop="@+id/VentanaConsultaBuscarImagen"
+                android:layout_alignBottom="@+id/VentanaConsultaBuscarImagen"
+                android:layout_toRightOf="@+id/VentanaConsultaBuscarImagen"
+                android:background="@android:drawable/presence_online"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/VentanaConsultaImagen"
+                android:visibility="visible"
+                android:layout_below="@+id/VentanaConsultaBuscarImagen" />
+
+            <View style="@style/Separador"
+                android:layout_below="@+id/VentanaConsultaImagen"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:id="@+id/linearLayout" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/botoneraConsulta"
+                android:layout_below="@+id/VentanaConsultaImagen"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal"
+                android:baselineAligned="true">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/botonVentana1"
+                    android:drawableLeft="@drawable/wowzie"
+                    android:layout_below="@+id/VentanaConsultaImagen"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentRight="false"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_alignParentLeft="true" />
+
+                <Button
+                    style="@style/Widget.AppCompat.ButtonBar.AlertDialog"
+                    android:layout_width="52dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/boton_comentario"
+                    android:drawableLeft="@android:drawable/ic_menu_edit"
+                    android:layout_below="@+id/VentanaConsultaImagen"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentLeft="true"
+                    android:focusableInTouchMode="false"
+                    android:singleLine="true"
+                    android:enabled="true"
+                    android:focusable="false"
+                    android:background="#62101d" />
+
+                <Button
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/botonVentana2"
+                    android:drawableLeft="@android:drawable/btn_star_big_on"
+                    android:layout_alignTop="@+id/botonVentana1"
+                    android:layout_alignBottom="@+id/botonVentana1"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="middle" />
+
+                <Button
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/boton_compartir"
+                    android:drawableLeft="@drawable/redes"
+                    android:layout_alignTop="@+id/botonVentana1"
+                    android:layout_alignBottom="@+id/botonVentana1"
+                    android:layout_alignParentRight="true"
+                    android:ellipsize="middle" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

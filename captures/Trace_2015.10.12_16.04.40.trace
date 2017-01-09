@@ -1,0 +1,565 @@
+*version
+3
+data-file-overflow=false
+clock=dual
+elapsed-time-usec=46988
+num-method-calls=2852
+clock-call-overhead-nsec=3455
+vm=dalvik
+*threads
+1	main
+32	NetworkUpdateTimer
+29	Binder_5
+31	Binder_4
+30	AsyncTask #3
+28	AudioPlayer
+27	BaseTextureView-RenderThread
+26	Gestures
+25	LocationUpdates
+24	MapEventDispatcher
+23	MapWorkerThread
+22	Thread-3089
+21	Thread-3086
+20	Thread-3088
+19	Thread-3087
+18	Thread-3085
+17	Thread-3084
+16	MapsDataDownload
+15	localechange_handler
+14	connection_handler
+13	AsyncTask #2
+12	Binder_3
+11	AsyncTask #1
+10	Binder_2
+9	Binder_1
+8	FinalizerWatchdogDaemon
+7	FinalizerDaemon
+6	ReferenceQueueDaemon
+5	Compiler
+4	JDWP
+3	Signal Catcher
+2	GC
+*methods
+0x4c959958	java/lang/Long	intValue	()I	Long.java	295
+0x4c959170	java/lang/Long	<init>	(J)V	Long.java	75
+0x4c959720	java/lang/Long	valueOf	(J)Ljava/lang/Long;	Long.java	728
+0x4ca91cd8	android/ddm/DdmHandleProfiling	handleChunk	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleProfiling.java	73
+0x4ca91b48	android/ddm/DdmHandleProfiling	handleMPRQ	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleProfiling.java	-1
+0x4ca91bf0	android/ddm/DdmHandleProfiling	handleMPSS	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleProfiling.java	137
+0x4ca90700	android/database/sqlite/SQLiteQuery	<init>	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Landroid/os/CancellationSignal;)V	SQLiteQuery.java	37
+0x4c995930	java/util/concurrent/atomic/AtomicInteger	get	()I	AtomicInteger.java	60
+0x4c950078	java/nio/ByteBuffer	order	(Ljava/nio/ByteOrder;)Ljava/nio/ByteBuffer;	ByteBuffer.java	647
+0x4c9500e8	java/nio/ByteBuffer	orderImpl	(Ljava/nio/ByteOrder;)V	ByteBuffer.java	655
+0x4c94f7e8	java/nio/ByteBuffer	<init>	(ILjava/nio/MemoryBlock;)V	ByteBuffer.java	117
+0x4c94f8c8	java/nio/ByteBuffer	wrap	([BII)Ljava/nio/ByteBuffer;	ByteBuffer.java	104
+0x4cac0700	android/location/LocationManager	access$100	(Landroid/location/LocationManager;)Landroid/location/ILocationManager;	LocationManager.java	54
+0x4c9f61b0	android/os/Debug$MemoryInfo	<init>	()V	Debug.java	137
+0x4ca5b228	android/app/ContextImpl	openOrCreateDatabase	(Ljava/lang/String;ILandroid/database/sqlite/SQLiteDatabase$CursorFactory;Landroid/database/DatabaseErrorHandler;)Landroid/database/sqlite/SQLiteDatabase;	ContextImpl.java	816
+0x4ca5a458	android/app/ContextImpl	setFilePermissionsFromMode	(Ljava/lang/String;II)V	ContextImpl.java	-1
+0x4ca90f88	android/database/sqlite/SQLiteStatement	simpleQueryForLong	()J	SQLiteStatement.java	105
+0x4ca90e68	android/database/sqlite/SQLiteStatement	<init>	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;[Ljava/lang/Object;)V	SQLiteStatement.java	31
+0x4c973ee0	java/lang/Enum	ordinal	()I	Enum.java	85
+0x4c973f18	java/lang/Enum	toString	()Ljava/lang/String;	Enum.java	96
+0x4cc8f970	com/nokia/maps/NmaaGestureHandler$a	a	()V	NmaaGestureHandler.java	335
+0x4cc8f8f8	com/nokia/maps/NmaaGestureHandler$a	a	(Lcom/nokia/maps/NmaaGestureHandler$a;)V	NmaaGestureHandler.java	322
+0x4cc8f930	com/nokia/maps/NmaaGestureHandler$a	d	()V	NmaaGestureHandler.java	328
+0x4ca8b368	android/database/ContentObservable	<init>	()V	ContentObservable.java	26
+0x4c974f60	java/util/HashMap	get	(Ljava/lang/Object;)Ljava/lang/Object;	HashMap.java	-1
+0x4c974fd0	java/util/HashMap	isEmpty	()Z	HashMap.java	271
+0x4c975158	java/util/HashMap	put	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	HashMap.java	386
+0x4c974938	java/util/HashMap	<init>	()V	HashMap.java	125
+0x4c974b30	java/util/HashMap	doubleCapacity	()[Ljava/util/HashMap$HashMapEntry;	HashMap.java	569
+0x4c974ba0	java/util/HashMap	makeTable	(I)[Ljava/util/HashMap$HashMapEntry;	HashMap.java	555
+0x4c974cf0	java/util/HashMap	secondaryHash	(I)I	HashMap.java	973
+0x4ca38df8	java/util/Arrays	checkOffsetAndCount	(III)V	Arrays.java	1730
+0x4cc8c328	com/nokia/maps/NmaaGestureHandler	a	(Lcom/nokia/maps/NmaaGestureHandler;J)V	NmaaGestureHandler.java	19
+0x4cc8c3d0	com/nokia/maps/NmaaGestureHandler	f	()Ljava/lang/Object;	NmaaGestureHandler.java	19
+0x4cc8c750	com/nokia/maps/NmaaGestureHandler	pollNative	(J)V	NmaaGestureHandler.java	-2
+0x4cc297c0	android/database/sqlite/SQLiteConnection$OperationLog	beginOperation	(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)I	SQLiteConnection.java	1358
+0x4cc29868	android/database/sqlite/SQLiteConnection$OperationLog	endOperation	(I)V	SQLiteConnection.java	1406
+0x4cc296d8	android/database/sqlite/SQLiteConnection$OperationLog	endOperationDeferLogLocked	(I)Z	SQLiteConnection.java	-1
+0x4cc29710	android/database/sqlite/SQLiteConnection$OperationLog	getOperationLocked	(I)Landroid/database/sqlite/SQLiteConnection$Operation;	SQLiteConnection.java	1452
+0x4cc29780	android/database/sqlite/SQLiteConnection$OperationLog	newOperationCookieLocked	(I)I	SQLiteConnection.java	1447
+0x4c948bd8	java/lang/VMThread	currentThread	()Ljava/lang/Thread;	VMThread.java	-2
+0x4c948c48	java/lang/VMThread	sleep	(JI)V	VMThread.java	-2
+0x4c981b90	java/lang/AbstractStringBuilder	append0	(C)V	AbstractStringBuilder.java	131
+0x4c981c00	java/lang/AbstractStringBuilder	append0	(Ljava/lang/String;)V	AbstractStringBuilder.java	138
+0x4c982370	java/lang/AbstractStringBuilder	toString	()Ljava/lang/String;	AbstractStringBuilder.java	-1
+0x4c981a00	java/lang/AbstractStringBuilder	<init>	()V	AbstractStringBuilder.java	74
+0x4c981a38	java/lang/AbstractStringBuilder	<init>	(I)V	AbstractStringBuilder.java	78
+0x4ca23280	org/apache/harmony/dalvik/ddmc/ChunkHandler	wrapChunk	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Ljava/nio/ByteBuffer;	ChunkHandler.java	80
+0x4ca8df38	android/database/sqlite/SQLiteCursor	getCount	()I	SQLiteCursor.java	132
+0x4ca8df70	android/database/sqlite/SQLiteCursor	getDatabase	()Landroid/database/sqlite/SQLiteDatabase;	SQLiteCursor.java	116
+0x4ca8dd70	android/database/sqlite/SQLiteCursor	<init>	(Landroid/database/sqlite/SQLiteCursorDriver;Ljava/lang/String;Landroid/database/sqlite/SQLiteQuery;)V	SQLiteCursor.java	-1
+0x4ca8dde0	android/database/sqlite/SQLiteCursor	fillWindow	(I)V	SQLiteCursor.java	-1
+0x4c956b48	java/lang/Character	isHighSurrogate	(C)Z	Character.java	1689
+0x4c957910	java/lang/Character	toUpperCase	(C)C	Character.java	3282
+0x4c957948	java/lang/Character	toUpperCase	(I)I	Character.java	3297
+0x4cc6bd10	a/a/a/b/d	onOpen	(Landroid/database/sqlite/SQLiteDatabase;)V	PayloadDatabase.java	82
+0x4cace480	java/lang/IntegralToString	appendInt	(Ljava/lang/AbstractStringBuilder;I)V	IntegralToString.java	173
+0x4cace560	java/lang/IntegralToString	convertInt	(Ljava/lang/AbstractStringBuilder;I)Ljava/lang/String;	IntegralToString.java	-1
+0x4cca2820	com/nokia/maps/GeoPositionImpl	a	()Lcom/here/android/mpa/common/GeoCoordinate;	GeoPositionImpl.java	92
+0x4cca29a8	com/nokia/maps/GeoPositionImpl	getSpeed	()D	GeoPositionImpl.java	-2
+0x4cca25e8	com/nokia/maps/GeoPositionImpl	<init>	(Landroid/location/Location;)V	GeoPositionImpl.java	-1
+0x4cca2658	com/nokia/maps/GeoPositionImpl	a	(Lcom/nokia/maps/GeoPositionImpl;)Lcom/here/android/mpa/common/GeoPosition;	GeoPositionImpl.java	35
+0x4cca2738	com/nokia/maps/GeoPositionImpl	createNative	(Lcom/nokia/maps/GeoCoordinateImpl;FFFJ)V	GeoPositionImpl.java	-2
+0x4cca27a8	com/nokia/maps/GeoPositionImpl	getCoordinateNative	()Lcom/nokia/maps/GeoCoordinateImpl;	GeoPositionImpl.java	-2
+0x4ca2b600	android/content/ContextWrapper	openOrCreateDatabase	(Ljava/lang/String;ILandroid/database/sqlite/SQLiteDatabase$CursorFactory;Landroid/database/DatabaseErrorHandler;)Landroid/database/sqlite/SQLiteDatabase;	ContextWrapper.java	221
+0x4cc89a98	com/nokia/maps/GeoCoordinateImpl	a	()D	GeoCoordinateImpl.java	137
+0x4cc89b78	com/nokia/maps/GeoCoordinateImpl	b	()D	GeoCoordinateImpl.java	159
+0x4cc89c90	com/nokia/maps/GeoCoordinateImpl	d	()Z	GeoCoordinateImpl.java	-1
+0x4cc895c0	com/nokia/maps/GeoCoordinateImpl	<init>	(DDD)V	GeoCoordinateImpl.java	99
+0x4cc895f8	com/nokia/maps/GeoCoordinateImpl	<init>	(I)V	GeoCoordinateImpl.java	76
+0x4cc89710	com/nokia/maps/GeoCoordinateImpl	create	(Lcom/nokia/maps/GeoCoordinateImpl;)Lcom/here/android/mpa/common/GeoCoordinate;	GeoCoordinateImpl.java	54
+0x4cc89748	com/nokia/maps/GeoCoordinateImpl	createGeoCoordinateNative	(DDD)V	GeoCoordinateImpl.java	-2
+0x4cc89908	com/nokia/maps/GeoCoordinateImpl	getNativeLatitude	()D	GeoCoordinateImpl.java	-2
+0x4cc89940	com/nokia/maps/GeoCoordinateImpl	getNativeLongitude	()D	GeoCoordinateImpl.java	-2
+0x4cc899b0	com/nokia/maps/GeoCoordinateImpl	isValidNative	()Z	GeoCoordinateImpl.java	-2
+0x4ca38800	java/lang/ThreadLocal$Values	add	(Ljava/lang/ThreadLocal;Ljava/lang/Object;)V	ThreadLocal.java	366
+0x4ca38838	java/lang/ThreadLocal$Values	getAfterMiss	(Ljava/lang/ThreadLocal;)Ljava/lang/Object;	ThreadLocal.java	-1
+0x4ca38670	java/lang/ThreadLocal$Values	access$000	(Ljava/lang/ThreadLocal$Values;)[Ljava/lang/Object;	ThreadLocal.java	144
+0x4ca386a8	java/lang/ThreadLocal$Values	access$100	(Ljava/lang/ThreadLocal$Values;)I	ThreadLocal.java	144
+0x4ca386e0	java/lang/ThreadLocal$Values	cleanUp	()V	ThreadLocal.java	254
+0x4ca38750	java/lang/ThreadLocal$Values	initializeTable	(I)V	ThreadLocal.java	244
+0x4ca38788	java/lang/ThreadLocal$Values	next	(I)I	ThreadLocal.java	531
+0x4ca387c0	java/lang/ThreadLocal$Values	rehash	()Z	ThreadLocal.java	-1
+0x4ca413a0	java/nio/HeapByteBuffer	get	()B	HeapByteBuffer.java	107
+0x4ca416e8	java/nio/HeapByteBuffer	getInt	()I	HeapByteBuffer.java	158
+0x4ca41328	java/nio/HeapByteBuffer	<init>	([B)V	HeapByteBuffer.java	44
+0x4ca41360	java/nio/HeapByteBuffer	<init>	([BII)V	HeapByteBuffer.java	52
+0x4cc8b860	com/nokia/maps/an	a	(Landroid/location/Location;)V	DeviceLocation.java	-1
+0x4cc8b2a8	com/nokia/maps/an	a	(Lcom/here/android/mpa/common/PositioningManager$LocationMethod;J)V	DeviceLocation.java	391
+0x4cc8b2e0	com/nokia/maps/an	a	(Lcom/here/android/mpa/common/PositioningManager$LocationMethod;Landroid/location/Location;)V	DeviceLocation.java	596
+0x4cc8b7e8	com/nokia/maps/an	m	()Lcom/here/android/mpa/common/PositioningManager$LocationMethod;	DeviceLocation.java	-1
+0x4cca1728	java/util/Timer	schedule	(Ljava/util/TimerTask;JJ)V	Timer.java	-1
+0x4cca1560	java/util/Timer	<init>	(Ljava/lang/String;)V	Timer.java	378
+0x4cca1598	java/util/Timer	<init>	(Ljava/lang/String;Z)V	Timer.java	363
+0x4cca1640	java/util/Timer	scheduleImpl	(Ljava/util/TimerTask;JJZ)V	Timer.java	559
+0x4cab00d8	android/text/TextUtils	isEmpty	(Ljava/lang/CharSequence;)Z	TextUtils.java	440
+0x4c9446b0	java/lang/Class	getName	()Ljava/lang/String;	Class.java	996
+0x4ca8a048	android/database/AbstractWindowedCursor	clearOrCreateWindow	(Ljava/lang/String;)V	AbstractWindowedCursor.java	197
+0x4ca89fd0	android/database/AbstractWindowedCursor	<init>	()V	AbstractWindowedCursor.java	36
+0x4c9c1560	android/os/Handler	dispatchMessage	(Landroid/os/Message;)V	Handler.java	91
+0x4c9c1870	android/os/Handler	post	(Ljava/lang/Runnable;)Z	Handler.java	263
+0x4c9c1bb8	android/os/Handler	sendMessageAtTime	(Landroid/os/Message;J)Z	Handler.java	469
+0x4c9c1bf0	android/os/Handler	sendMessageDelayed	(Landroid/os/Message;J)Z	Handler.java	443
+0x4c9c14b0	android/os/Handler	getPostMessage	(Ljava/lang/Runnable;)Landroid/os/Message;	Handler.java	602
+0x4cc29a80	android/database/sqlite/SQLiteConnection$Operation	<init>	()V	SQLiteConnection.java	1499
+0x4cc29ab8	android/database/sqlite/SQLiteConnection$Operation	<init>	(Landroid/database/sqlite/SQLiteConnection$1;)V	SQLiteConnection.java	1499
+0x4cc55bd0	android/location/ILocationListener$Stub	asBinder	()Landroid/os/IBinder;	ILocationListener.java	37
+0x4cc28b60	android/database/sqlite/SQLiteDatabaseConfiguration	isInMemoryDb	()Z	SQLiteDatabaseConfiguration.java	156
+0x4c955818	java/lang/Double	<init>	(D)V	Double.java	122
+0x4c955a80	java/lang/Double	valueOf	(D)Ljava/lang/Double;	Double.java	390
+0x4ca38278	dalvik/system/BlockGuard$1	onReadFromDisk	()V	BlockGuard.java	120
+0x4cc477b8	com/nokia/maps/bg	a	(ILjava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V	Log.java	-1
+0x4cc47828	com/nokia/maps/bg	a	(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V	Log.java	107
+0x4ca8c4c8	android/database/DataSetObservable	<init>	()V	DataSetObservable.java	24
+0x4cc8c040	com/nokia/maps/ff$1	<init>	(Lcom/nokia/maps/ff;Lcom/nokia/maps/ff$a;Ljava/lang/Runnable;)V	WeakReferenceListenerList.java	84
+0x4cc29370	android/database/sqlite/SQLiteConnectionPool	acquireConnection	(Ljava/lang/String;ILandroid/os/CancellationSignal;)Landroid/database/sqlite/SQLiteConnection;	SQLiteConnectionPool.java	348
+0x4cc294f8	android/database/sqlite/SQLiteConnectionPool	releaseConnection	(Landroid/database/sqlite/SQLiteConnection;)V	SQLiteConnectionPool.java	364
+0x4cc28f78	android/database/sqlite/SQLiteConnectionPool	finishAcquireConnectionLocked	(Landroid/database/sqlite/SQLiteConnection;I)V	SQLiteConnectionPool.java	908
+0x4cc290c8	android/database/sqlite/SQLiteConnectionPool	open	(Landroid/database/sqlite/SQLiteDatabaseConfiguration;)Landroid/database/sqlite/SQLiteConnectionPool;	SQLiteConnectionPool.java	171
+0x4cc29100	android/database/sqlite/SQLiteConnectionPool	open	()V	SQLiteConnectionPool.java	-1
+0x4cc29138	android/database/sqlite/SQLiteConnectionPool	openConnectionLocked	(Landroid/database/sqlite/SQLiteDatabaseConfiguration;Z)Landroid/database/sqlite/SQLiteConnection;	SQLiteConnectionPool.java	462
+0x4cc291a8	android/database/sqlite/SQLiteConnectionPool	recycleConnectionLocked	(Landroid/database/sqlite/SQLiteConnection;Landroid/database/sqlite/SQLiteConnectionPool$AcquiredConnectionStatus;)Z	SQLiteConnectionPool.java	394
+0x4cc29250	android/database/sqlite/SQLiteConnectionPool	throwIfClosedLocked	()V	SQLiteConnectionPool.java	961
+0x4cc29288	android/database/sqlite/SQLiteConnectionPool	tryAcquireNonPrimaryConnectionLocked	(Ljava/lang/String;I)Landroid/database/sqlite/SQLiteConnection;	SQLiteConnectionPool.java	871
+0x4cc292c0	android/database/sqlite/SQLiteConnectionPool	tryAcquirePrimaryConnectionLocked	(I)Landroid/database/sqlite/SQLiteConnection;	SQLiteConnectionPool.java	-1
+0x4cc292f8	android/database/sqlite/SQLiteConnectionPool	waitForConnection	(Ljava/lang/String;ILandroid/os/CancellationSignal;)Landroid/database/sqlite/SQLiteConnection;	SQLiteConnectionPool.java	593
+0x4cc29330	android/database/sqlite/SQLiteConnectionPool	wakeConnectionWaitersLocked	()V	SQLiteConnectionPool.java	784
+0x4c993018	android/os/Binder	clearCallingIdentity	()J	Binder.java	-2
+0x4c9930c0	android/os/Binder	flushPendingCommands	()V	Binder.java	-2
+0x4c9752b0	java/util/AbstractMap	<init>	()V	AbstractMap.java	171
+0x4c9f6e48	android/os/Debug	getMemoryInfo	(Landroid/os/Debug$MemoryInfo;)V	Debug.java	-2
+0x4c9f7120	android/os/Debug	isMethodTracingActive	()Z	Debug.java	529
+0x4c9f77b0	android/os/Debug	startMethodTracingDdms	(II)V	Debug.java	521
+0x4c952020	java/lang/ref/FinalizerReference	<init>	(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V	FinalizerReference.java	34
+0x4c952058	java/lang/ref/FinalizerReference	add	(Ljava/lang/Object;)V	FinalizerReference.java	48
+0x4c962b98	java/io/File	getPath	()Ljava/lang/String;	File.java	494
+0x4c954f68	java/lang/Float	<init>	(F)V	Float.java	118
+0x4c9551d0	java/lang/Float	valueOf	(F)Ljava/lang/Float;	Float.java	397
+0x4ca917c8	android/ddm/DdmHandleHeap	handleChunk	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleHeap.java	82
+0x4ca91600	android/ddm/DdmHandleHeap	handleHPIF	(Lorg/apache/harmony/dalvik/ddmc/Chunk;)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmHandleHeap.java	112
+0x4c998b88	android/os/Parcel	readException	()V	Parcel.java	1376
+0x4c998bf8	android/os/Parcel	readExceptionCode	()I	Parcel.java	1397
+0x4c998d10	android/os/Parcel	readInt	()I	Parcel.java	1443
+0x4c9991a8	android/os/Parcel	recycle	()V	Parcel.java	311
+0x4c999720	android/os/Parcel	writeInterfaceToken	(Ljava/lang/String;)V	Parcel.java	444
+0x4c999a68	android/os/Parcel	writeStrongBinder	(Landroid/os/IBinder;)V	Parcel.java	530
+0x4c997a00	android/os/Parcel	freeBuffer	()V	Parcel.java	2198
+0x4c997c68	android/os/Parcel	nativeFreeBuffer	(I)V	Parcel.java	-2
+0x4c997df0	android/os/Parcel	nativeReadInt	(I)I	Parcel.java	-2
+0x4c998100	android/os/Parcel	nativeWriteInterfaceToken	(ILjava/lang/String;)V	Parcel.java	-2
+0x4c9981a8	android/os/Parcel	nativeWriteStrongBinder	(ILandroid/os/IBinder;)V	Parcel.java	-2
+0x4c9981e0	android/os/Parcel	obtain	()Landroid/os/Parcel;	Parcel.java	288
+0x4c995398	android/os/StrictMode	vmSqliteObjectLeaksEnabled	()Z	StrictMode.java	1507
+0x4ca447f8	java/util/WeakHashMap$Entry	<init>	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V	WeakHashMap.java	-1
+0x4c958ef0	java/lang/Integer	equals	(Ljava/lang/Object;)Z	Integer.java	209
+0x4c958f60	java/lang/Integer	hashCode	()I	Integer.java	303
+0x4c9587b0	java/lang/Integer	<init>	(I)V	Integer.java	88
+0x4c958d60	java/lang/Integer	valueOf	(I)Ljava/lang/Integer;	Integer.java	707
+0x4c9f5708	android/database/sqlite/SQLiteConnection	execute	(Ljava/lang/String;[Ljava/lang/Object;Landroid/os/CancellationSignal;)V	SQLiteConnection.java	602
+0x4c9f5820	android/database/sqlite/SQLiteConnection	executeForLong	(Ljava/lang/String;[Ljava/lang/Object;Landroid/os/CancellationSignal;)J	SQLiteConnection.java	645
+0x4c9f5858	android/database/sqlite/SQLiteConnection	executeForString	(Ljava/lang/String;[Ljava/lang/Object;Landroid/os/CancellationSignal;)Ljava/lang/String;	SQLiteConnection.java	688
+0x4c9f5938	android/database/sqlite/SQLiteConnection	isPrimaryConnection	()Z	SQLiteConnection.java	526
+0x4c9f59a8	android/database/sqlite/SQLiteConnection	prepare	(Ljava/lang/String;Landroid/database/sqlite/SQLiteStatementInfo;)V	SQLiteConnection.java	554
+0x4c9f5a18	android/database/sqlite/SQLiteConnection	setOnlyAllowReadOnlyOperations	(Z)V	SQLiteConnection.java	478
+0x4c9f49a8	android/database/sqlite/SQLiteConnection	acquirePreparedStatement	(Ljava/lang/String;)Landroid/database/sqlite/SQLiteConnection$PreparedStatement;	SQLiteConnection.java	-1
+0x4c9f49e0	android/database/sqlite/SQLiteConnection	applyBlockGuardPolicy	(Landroid/database/sqlite/SQLiteConnection$PreparedStatement;)V	SQLiteConnection.java	1099
+0x4c9f4a18	android/database/sqlite/SQLiteConnection	attachCancellationSignal	(Landroid/os/CancellationSignal;)V	SQLiteConnection.java	-1
+0x4c9f4a50	android/database/sqlite/SQLiteConnection	bindArguments	(Landroid/database/sqlite/SQLiteConnection$PreparedStatement;[Ljava/lang/Object;)V	SQLiteConnection.java	1040
+0x4c9f4ac0	android/database/sqlite/SQLiteConnection	detachCancellationSignal	(Landroid/os/CancellationSignal;)V	SQLiteConnection.java	1015
+0x4c9f4b30	android/database/sqlite/SQLiteConnection	finalizePreparedStatement	(Landroid/database/sqlite/SQLiteConnection$PreparedStatement;)V	SQLiteConnection.java	995
+0x4c9f4ba0	android/database/sqlite/SQLiteConnection	isCacheable	(I)Z	SQLiteConnection.java	-1
+0x4c9f4d98	android/database/sqlite/SQLiteConnection	nativeExecute	(II)V	SQLiteConnection.java	-2
+0x4c9f4eb0	android/database/sqlite/SQLiteConnection	nativeExecuteForLong	(II)J	SQLiteConnection.java	-2
+0x4c9f4ee8	android/database/sqlite/SQLiteConnection	nativeExecuteForString	(II)Ljava/lang/String;	SQLiteConnection.java	-2
+0x4c9f4f20	android/database/sqlite/SQLiteConnection	nativeFinalizeStatement	(II)V	SQLiteConnection.java	-2
+0x4c9f4f58	android/database/sqlite/SQLiteConnection	nativeGetColumnCount	(II)I	SQLiteConnection.java	-2
+0x4c9f4f90	android/database/sqlite/SQLiteConnection	nativeGetColumnName	(III)Ljava/lang/String;	SQLiteConnection.java	-2
+0x4c9f5000	android/database/sqlite/SQLiteConnection	nativeGetParameterCount	(II)I	SQLiteConnection.java	-2
+0x4c9f5038	android/database/sqlite/SQLiteConnection	nativeIsReadOnly	(II)Z	SQLiteConnection.java	-2
+0x4c9f50a8	android/database/sqlite/SQLiteConnection	nativePrepareStatement	(ILjava/lang/String;)I	SQLiteConnection.java	-2
+0x4c9f5188	android/database/sqlite/SQLiteConnection	nativeResetStatementAndClearBindings	(II)V	SQLiteConnection.java	-2
+0x4c9f51f8	android/database/sqlite/SQLiteConnection	obtainPreparedStatement	(Ljava/lang/String;IIIZ)Landroid/database/sqlite/SQLiteConnection$PreparedStatement;	SQLiteConnection.java	-1
+0x4c9f5230	android/database/sqlite/SQLiteConnection	open	(Landroid/database/sqlite/SQLiteConnectionPool;Landroid/database/sqlite/SQLiteDatabaseConfiguration;IZ)Landroid/database/sqlite/SQLiteConnection;	SQLiteConnection.java	198
+0x4c9f5268	android/database/sqlite/SQLiteConnection	open	()V	SQLiteConnection.java	236
+0x4c9f52a0	android/database/sqlite/SQLiteConnection	recyclePreparedStatement	(Landroid/database/sqlite/SQLiteConnection$PreparedStatement;)V	SQLiteConnection.java	1260
+0x4c9f52d8	android/database/sqlite/SQLiteConnection	releasePreparedStatement	(Landroid/database/sqlite/SQLiteConnection$PreparedStatement;)V	SQLiteConnection.java	972
+0x4c9f5428	android/database/sqlite/SQLiteConnection	setLocaleFromConfiguration	()V	SQLiteConnection.java	386
+0x4c9f5508	android/database/sqlite/SQLiteConnection	throwIfStatementForbidden	(Landroid/database/sqlite/SQLiteConnection$PreparedStatement;)V	SQLiteConnection.java	1084
+0x4cc81e50	com/nokia/maps/ce	a	(Ljava/lang/Runnable;)V	MapsUtils.java	21
+0x4c946398	java/lang/String	_getChars	(II[CI)V	String.java	913
+0x4c946670	java/lang/String	equals	(Ljava/lang/Object;)Z	String.java	-2
+0x4c9466a8	java/lang/String	equalsIgnoreCase	(Ljava/lang/String;)Z	String.java	-1
+0x4c9467f8	java/lang/String	hashCode	()I	String.java	917
+0x4c946830	java/lang/String	indexOf	(I)I	String.java	-1
+0x4c946a60	java/lang/String	length	()I	String.java	-2
+0x4c946da8	java/lang/String	substring	(II)Ljava/lang/String;	String.java	1466
+0x4c946e88	java/lang/String	toString	()Ljava/lang/String;	String.java	1520
+0x4c946ef8	java/lang/String	toUpperCase	(Ljava/util/Locale;)Ljava/lang/String;	String.java	1547
+0x4c946f30	java/lang/String	trim	()Ljava/lang/String;	String.java	-1
+0x4c945ad0	java/lang/String	<init>	(II[C)V	String.java	441
+0x4c945e88	java/lang/String	<init>	([CII)V	String.java	-1
+0x4c945fa0	java/lang/String	fastIndexOf	(II)I	String.java	-2
+0x4c950650	java/nio/Buffer	<init>	(IILjava/nio/MemoryBlock;)V	Buffer.java	97
+0x4cc20f68	org/apache/harmony/dalvik/ddmc/DdmVmInternal	heapInfoNotify	(I)Z	DdmVmInternal.java	-2
+0x4cc99a70	com/nokia/maps/ck	b	()Z	MetricsProviderImpl.java	111
+0x4cabfbf0	android/location/Location	getAccuracy	()F	Location.java	634
+0x4cabfc28	android/location/Location	getAltitude	()D	Location.java	526
+0x4cabfcd0	android/location/Location	getLatitude	()D	Location.java	489
+0x4cabfd08	android/location/Location	getLongitude	()D	Location.java	503
+0x4cabfd40	android/location/Location	getProvider	()Ljava/lang/String;	Location.java	459
+0x4cabfd78	android/location/Location	getSpeed	()F	Location.java	560
+0x4cabfdb0	android/location/Location	getTime	()J	Location.java	474
+0x4cabfde8	android/location/Location	hasAccuracy	()Z	Location.java	626
+0x4cabfe58	android/location/Location	hasBearing	()Z	Location.java	586
+0x4cabfe90	android/location/Location	hasSpeed	()Z	Location.java	552
+0x4c977c60	dalvik/system/CloseGuard	open	(Ljava/lang/String;)V	CloseGuard.java	176
+0x4c977b40	dalvik/system/CloseGuard	get	()Ldalvik/system/CloseGuard;	CloseGuard.java	131
+0x4cca2240	java/util/Timer$FinalizerHelper	<init>	(Ljava/util/Timer$TimerImpl;)V	Timer.java	326
+0x4cc4f360	com/nokia/maps/cq	<init>	(Ljava/lang/String;)V	ObjectCounter.java	57
+0x4cca20b8	java/util/TimerTask	isScheduled	()Z	TimerTask.java	-1
+0x4cca2008	java/util/TimerTask	<init>	()V	TimerTask.java	80
+0x4cc99870	android/location/LocationManager$ListenerTransport$2	handleMessage	(Landroid/os/Message;)V	LocationManager.java	219
+0x4cc8fc78	com/nokia/maps/NmaaGestureHandler$a$1	a	()V	NmaaGestureHandler.java	349
+0x4cc2a4e8	android/database/sqlite/SQLiteSession	executeForLong	(Ljava/lang/String;[Ljava/lang/Object;ILandroid/os/CancellationSignal;)J	SQLiteSession.java	642
+0x4cc2a600	android/database/sqlite/SQLiteSession	prepare	(Ljava/lang/String;ILandroid/os/CancellationSignal;Landroid/database/sqlite/SQLiteStatementInfo;)V	SQLiteSession.java	578
+0x4cc2a080	android/database/sqlite/SQLiteSession	<init>	(Landroid/database/sqlite/SQLiteConnectionPool;)V	SQLiteSession.java	227
+0x4cc2a0b8	android/database/sqlite/SQLiteSession	acquireConnection	(Ljava/lang/String;ILandroid/os/CancellationSignal;)V	SQLiteSession.java	914
+0x4cc2a160	android/database/sqlite/SQLiteSession	executeSpecial	(Ljava/lang/String;[Ljava/lang/Object;ILandroid/os/CancellationSignal;)Z	SQLiteSession.java	-1
+0x4cc2a208	android/database/sqlite/SQLiteSession	releaseConnection	()V	SQLiteSession.java	-1
+0x4cca30d0	com/nokia/maps/PositioningManagerImpl$2	<init>	(Lcom/nokia/maps/PositioningManagerImpl;Lcom/nokia/maps/PositioningManagerImpl$b;Lcom/here/android/mpa/common/PositioningManager$LocationMethod;Lcom/here/android/mpa/common/GeoPosition;Z)V	PositioningManagerImpl.java	639
+0x4c9430b8	java/lang/Object	equals	(Ljava/lang/Object;)Z	Object.java	191
+0x4c943160	java/lang/Object	hashCode	()I	Object.java	-2
+0x4c943198	java/lang/Object	notify	()V	Object.java	-2
+0x4c943240	java/lang/Object	wait	()V	Object.java	364
+0x4c943278	java/lang/Object	wait	(J)V	Object.java	401
+0x4c9432b0	java/lang/Object	wait	(JI)V	Object.java	-2
+0x4cc92c90	com/nokia/maps/NavigationManagerImpl	m	()Lcom/here/android/mpa/guidance/NavigationManager$NavigationState;	NavigationManagerImpl.java	1411
+0x4cc91bb0	com/nokia/maps/NavigationManagerImpl	native_runningState	()I	NavigationManagerImpl.java	-2
+0x4c974530	java/util/LinkedHashMap	addNewEntry	(Ljava/lang/Object;Ljava/lang/Object;II)V	LinkedHashMap.java	185
+0x4c974680	java/util/LinkedHashMap	get	(Ljava/lang/Object;)Ljava/lang/Object;	LinkedHashMap.java	-1
+0x4c974808	java/util/LinkedHashMap	removeEldestEntry	(Ljava/util/Map$Entry;)Z	LinkedHashMap.java	394
+0x4c953960	java/util/regex/Matcher	groupCount	()I	Matcher.java	525
+0x4c953a78	java/util/regex/Matcher	matches	()Z	Matcher.java	446
+0x4c953c70	java/util/regex/Matcher	reset	(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;	Matcher.java	181
+0x4c953d88	java/util/regex/Matcher	usePattern	(Ljava/util/regex/Pattern;)Ljava/util/regex/Matcher;	Matcher.java	-1
+0x4c953370	java/util/regex/Matcher	<init>	(Ljava/util/regex/Pattern;Ljava/lang/CharSequence;)V	Matcher.java	92
+0x4c9534c0	java/util/regex/Matcher	groupCountImpl	(I)I	Matcher.java	-2
+0x4c953568	java/util/regex/Matcher	matchesImpl	(ILjava/lang/String;[I)Z	Matcher.java	-2
+0x4c9535a0	java/util/regex/Matcher	openImpl	(I)I	Matcher.java	-2
+0x4c953648	java/util/regex/Matcher	reset	(Ljava/lang/CharSequence;II)Ljava/util/regex/Matcher;	Matcher.java	-1
+0x4c953680	java/util/regex/Matcher	resetForInput	()V	Matcher.java	254
+0x4c9536b8	java/util/regex/Matcher	setInputImpl	(ILjava/lang/String;II)V	Matcher.java	-2
+0x4c9536f0	java/util/regex/Matcher	useAnchoringBoundsImpl	(IZ)V	Matcher.java	-2
+0x4c953728	java/util/regex/Matcher	useTransparentBoundsImpl	(IZ)V	Matcher.java	-2
+0x4c9f43d8	android/database/sqlite/SQLiteClosable	acquireReference	()V	SQLiteClosable.java	53
+0x4c9f4410	android/database/sqlite/SQLiteClosable	close	()V	SQLiteClosable.java	106
+0x4c9f44b8	android/database/sqlite/SQLiteClosable	releaseReference	()V	SQLiteClosable.java	69
+0x4c9f4398	android/database/sqlite/SQLiteClosable	<init>	()V	SQLiteClosable.java	26
+0x4c9f8098	android/os/FileUtils	setPermissions	(Ljava/lang/String;III)I	FileUtils.java	-2
+0x4ca89740	android/database/AbstractCursor	moveToNext	()Z	AbstractCursor.java	244
+0x4ca89778	android/database/AbstractCursor	moveToPosition	(I)Z	AbstractCursor.java	-1
+0x4ca88f20	android/database/AbstractCursor	<init>	()V	AbstractCursor.java	-1
+0x4cc8a3e8	com/nokia/maps/PositioningManagerImpl	a	(Lcom/here/android/mpa/common/PositioningManager$LocationMethod;Landroid/location/Location;)V	PositioningManagerImpl.java	-1
+0x4cc89fb8	com/nokia/maps/PositioningManagerImpl	a	(Lcom/nokia/maps/PositioningManagerImpl$b;Lcom/here/android/mpa/common/PositioningManager$LocationMethod;Lcom/here/android/mpa/common/GeoPosition;)V	PositioningManagerImpl.java	-1
+0x4cc8a098	com/nokia/maps/PositioningManagerImpl	b	(Lcom/here/android/mpa/common/PositioningManager$LocationMethod;Landroid/location/Location;)V	PositioningManagerImpl.java	554
+0x4cc8a370	com/nokia/maps/PositioningManagerImpl	updateLocationNative	(IDDDDFFFJ)V	PositioningManagerImpl.java	-2
+0x4ca44510	java/util/WeakHashMap	poll	()V	WeakHashMap.java	569
+0x4ca44548	java/util/WeakHashMap	put	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	WeakHashMap.java	-1
+0x4ca445b8	java/util/WeakHashMap	remove	(Ljava/lang/Object;)Ljava/lang/Object;	WeakHashMap.java	686
+0x4ca44628	java/util/WeakHashMap	size	()I	WeakHashMap.java	723
+0x4ca38118	dalvik/system/BlockGuard	getThreadPolicy	()Ldalvik/system/BlockGuard$Policy;	BlockGuard.java	140
+0x4ca8fc50	android/database/sqlite/SQLiteDirectCursorDriver	query	(Landroid/database/sqlite/SQLiteDatabase$CursorFactory;[Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDirectCursorDriver.java	44
+0x4ca8fb68	android/database/sqlite/SQLiteDirectCursorDriver	<init>	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)V	SQLiteDirectCursorDriver.java	36
+0x4c9725f0	java/util/AbstractCollection	<init>	()V	AbstractCollection.java	36
+0x4c954260	java/lang/Math	abs	(D)D	Math.java	-2
+0x4ca902c0	android/database/sqlite/SQLiteProgram	bindAllArgsAsStrings	([Ljava/lang/String;)V	SQLiteProgram.java	198
+0x4ca90410	android/database/sqlite/SQLiteProgram	clearBindings	()V	SQLiteProgram.java	187
+0x4ca90448	android/database/sqlite/SQLiteProgram	getBindArgs	()[Ljava/lang/Object;	SQLiteProgram.java	92
+0x4ca90480	android/database/sqlite/SQLiteProgram	getColumnNames	()[Ljava/lang/String;	SQLiteProgram.java	96
+0x4ca904b8	android/database/sqlite/SQLiteProgram	getConnectionFlags	()I	SQLiteProgram.java	106
+0x4ca904f0	android/database/sqlite/SQLiteProgram	getDatabase	()Landroid/database/sqlite/SQLiteDatabase;	SQLiteProgram.java	84
+0x4ca90528	android/database/sqlite/SQLiteProgram	getSession	()Landroid/database/sqlite/SQLiteSession;	SQLiteProgram.java	101
+0x4ca90560	android/database/sqlite/SQLiteProgram	getSql	()Ljava/lang/String;	SQLiteProgram.java	88
+0x4ca905d0	android/database/sqlite/SQLiteProgram	onAllReferencesReleased	()V	SQLiteProgram.java	207
+0x4ca90248	android/database/sqlite/SQLiteProgram	<init>	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;[Ljava/lang/Object;Landroid/os/CancellationSignal;)V	SQLiteProgram.java	-1
+0x4c9c3900	java/util/Locale	getLanguage	()Ljava/lang/String;	Locale.java	544
+0x4cc60460	com/nokia/maps/MapSettings	o	()Z	MapSettings.java	272
+0x4c9514b8	org/apache/harmony/dalvik/ddmc/Chunk	<init>	(I[BII)V	Chunk.java	45
+0x4ca8b4e0	android/database/Observable	<init>	()V	Observable.java	29
+0x4ca33140	java/lang/CaseMapper	toUpperCase	(Ljava/util/Locale;Ljava/lang/String;[CII)Ljava/lang/String;	CaseMapper.java	143
+0x4ca33178	java/lang/CaseMapper	upperIndex	(I)I	CaseMapper.java	-1
+0x4cc557b0	android/location/LocationManager$ListenerTransport	_handleMessage	(Landroid/os/Message;)V	LocationManager.java	260
+0x4cc557e8	android/location/LocationManager$ListenerTransport	access$000	(Landroid/location/LocationManager$ListenerTransport;Landroid/os/Message;)V	LocationManager.java	196
+0x4cc89438	com/here/android/mpa/common/GeoCoordinate$2	a	(Lcom/nokia/maps/GeoCoordinateImpl;)Lcom/here/android/mpa/common/GeoCoordinate;	GeoCoordinate.java	238
+0x4cc89470	com/here/android/mpa/common/GeoCoordinate$2	a	(Ljava/lang/Object;)Ljava/lang/Object;	GeoCoordinate.java	234
+0x4c9515d0	org/apache/harmony/dalvik/ddmc/DdmServer	dispatch	(I[BII)Lorg/apache/harmony/dalvik/ddmc/Chunk;	DdmServer.java	143
+0x4c993e50	android/os/BinderProxy	transact	(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z	Binder.java	-2
+0x4cca1e48	java/util/Timer$TimerImpl$TimerHeap	insert	(Ljava/util/TimerTask;)V	Timer.java	-1
+0x4cca1e80	java/util/Timer$TimerImpl$TimerHeap	isEmpty	()Z	Timer.java	70
+0x4cca1eb8	java/util/Timer$TimerImpl$TimerHeap	minimum	()Ljava/util/TimerTask;	Timer.java	66
+0x4cca1d60	java/util/Timer$TimerImpl$TimerHeap	upHeap	()V	Timer.java	93
+0x4cca2f98	com/here/android/mpa/common/GeoPosition$2	a	(Lcom/nokia/maps/GeoPositionImpl;)Lcom/here/android/mpa/common/GeoPosition;	GeoPosition.java	164
+0x4cca2fd0	com/here/android/mpa/common/GeoPosition$2	a	(Ljava/lang/Object;)Ljava/lang/Object;	GeoPosition.java	160
+0x4ca8f9f0	android/database/sqlite/SQLiteDatabase$1	initialValue	()Landroid/database/sqlite/SQLiteSession;	SQLiteDatabase.java	84
+0x4ca8fa28	android/database/sqlite/SQLiteDatabase$1	initialValue	()Ljava/lang/Object;	SQLiteDatabase.java	81
+0x4cc5f130	com/nokia/maps/BaseNativeObject	<init>	()V	BaseNativeObject.java	14
+0x4cc5f1a0	com/nokia/maps/BaseNativeObject	t	()V	BaseNativeObject.java	25
+0x4c96b240	libcore/io/Memory	peekInt	([BILjava/nio/ByteOrder;)I	Memory.java	46
+0x4ca40bb0	java/nio/ReadWriteHeapByteBuffer	<init>	([B)V	ReadWriteHeapByteBuffer.java	45
+0x4c996cf0	java/lang/ThreadLocal	get	()Ljava/lang/Object;	ThreadLocal.java	53
+0x4c996e08	java/lang/ThreadLocal	values	(Ljava/lang/Thread;)Ljava/lang/ThreadLocal$Values;	ThreadLocal.java	121
+0x4c996c78	java/lang/ThreadLocal	access$200	(Ljava/lang/ThreadLocal;)I	ThreadLocal.java	33
+0x4c996cb0	java/lang/ThreadLocal	access$300	(Ljava/lang/ThreadLocal;)Ljava/lang/ref/Reference;	ThreadLocal.java	33
+0x4ca056c0	android/os/Message	clearForRecycle	()V	Message.java	-1
+0x4ca05880	android/os/Message	isInUse	()Z	Message.java	-1
+0x4ca05928	android/os/Message	recycle	()V	Message.java	249
+0x4ca054c0	android/os/Message	obtain	()Landroid/os/Message;	Message.java	107
+0x4cc890b8	com/here/android/mpa/common/GeoCoordinate	getLatitude	()D	GeoCoordinate.java	95
+0x4cc890f0	com/here/android/mpa/common/GeoCoordinate	getLongitude	()D	GeoCoordinate.java	117
+0x4cc89160	com/here/android/mpa/common/GeoCoordinate	isValid	()Z	GeoCoordinate.java	176
+0x4cc88f98	com/here/android/mpa/common/GeoCoordinate	<init>	(Lcom/nokia/maps/GeoCoordinateImpl;)V	GeoCoordinate.java	84
+0x4cc7f928	com/nokia/maps/fb	a	(Ljava/lang/Runnable;)V	UIDispatcher.java	19
+0x4c972118	java/util/ArrayList	size	()I	ArrayList.java	315
+0x4c971b60	java/util/ArrayList	<init>	()V	ArrayList.java	81
+0x4c952750	dalvik/system/VMDebug	isMethodTracingActive	()Z	VMDebug.java	-2
+0x4c952a98	dalvik/system/VMDebug	startMethodTracingDdms	(II)V	VMDebug.java	-1
+0x4c952ad0	dalvik/system/VMDebug	startMethodTracingNative	(Ljava/lang/String;Ljava/io/FileDescriptor;II)V	VMDebug.java	-2
+0x4cc8ae28	com/nokia/maps/ff	a	()I	WeakReferenceListenerList.java	96
+0x4cc8ae98	com/nokia/maps/ff	a	(Lcom/nokia/maps/ff$a;Ljava/lang/Runnable;)V	WeakReferenceListenerList.java	84
+0x4cc8af40	com/nokia/maps/ff	b	(Lcom/nokia/maps/ff$a;)V	WeakReferenceListenerList.java	73
+0x4c975c70	java/util/HashMap$HashMapEntry	<init>	(Ljava/lang/Object;Ljava/lang/Object;ILjava/util/HashMap$HashMapEntry;)V	HashMap.java	729
+0x4c955530	java/lang/Number	<init>	()V	Number.java	33
+0x4cca2c20	com/here/android/mpa/common/GeoPosition	getCoordinate	()Lcom/here/android/mpa/common/GeoCoordinate;	GeoPosition.java	49
+0x4cca2d00	com/here/android/mpa/common/GeoPosition	getSpeed	()D	GeoPosition.java	89
+0x4cca2b38	com/here/android/mpa/common/GeoPosition	<init>	(Lcom/nokia/maps/GeoPositionImpl;)V	GeoPosition.java	38
+0x4ca8ced8	android/database/DatabaseUtils	findRowIdColumnIndex	([Ljava/lang/String;)I	DatabaseUtils.java	1395
+0x4ca8cff0	android/database/DatabaseUtils	getSqlStatementType	(Ljava/lang/String;)I	DatabaseUtils.java	-1
+0x4ca8d060	android/database/DatabaseUtils	longForQuery	(Landroid/database/sqlite/SQLiteDatabase;Ljava/lang/String;[Ljava/lang/String;)J	DatabaseUtils.java	802
+0x4ca8d098	android/database/DatabaseUtils	longForQuery	(Landroid/database/sqlite/SQLiteStatement;[Ljava/lang/String;)J	DatabaseUtils.java	815
+0x4c972220	java/util/AbstractList	<init>	()V	AbstractList.java	376
+0x4c9676b8	java/util/regex/Pattern	matcher	(Ljava/lang/CharSequence;)Ljava/util/regex/Matcher;	Pattern.java	290
+0x4cb0d870	android/util/LruCache	create	(Ljava/lang/Object;)Ljava/lang/Object;	LruCache.java	280
+0x4cb0d988	android/util/LruCache	get	(Ljava/lang/Object;)Ljava/lang/Object;	LruCache.java	112
+0x4cb0da68	android/util/LruCache	put	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	LruCache.java	166
+0x4cb0db80	android/util/LruCache	sizeOf	(Ljava/lang/Object;Ljava/lang/Object;)I	LruCache.java	299
+0x4cb0d7f8	android/util/LruCache	safeSizeOf	(Ljava/lang/Object;Ljava/lang/Object;)I	LruCache.java	284
+0x4cb0d830	android/util/LruCache	trimToSize	(I)V	LruCache.java	196
+0x4c980ec8	java/lang/StringBuilder	append	(C)Ljava/lang/StringBuilder;	StringBuilder.java	124
+0x4c980f70	java/lang/StringBuilder	append	(I)Ljava/lang/StringBuilder;	StringBuilder.java	139
+0x4c981088	java/lang/StringBuilder	append	(Ljava/lang/String;)Ljava/lang/StringBuilder;	StringBuilder.java	216
+0x4c981948	java/lang/StringBuilder	toString	()Ljava/lang/String;	StringBuilder.java	663
+0x4c980cc8	java/lang/StringBuilder	<init>	()V	StringBuilder.java	54
+0x4c980d00	java/lang/StringBuilder	<init>	(I)V	StringBuilder.java	67
+0x4ca90950	android/database/sqlite/SQLiteQueryBuilder	appendClause	(Ljava/lang/StringBuilder;Ljava/lang/String;Ljava/lang/String;)V	SQLiteQueryBuilder.java	235
+0x4ca90988	android/database/sqlite/SQLiteQueryBuilder	appendColumns	(Ljava/lang/StringBuilder;[Ljava/lang/String;)V	SQLiteQueryBuilder.java	246
+0x4ca909c0	android/database/sqlite/SQLiteQueryBuilder	buildQueryString	(ZLjava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	SQLiteQueryBuilder.java	204
+0x4ca01b50	android/os/Looper	getMainLooper	()Landroid/os/Looper;	Looper.java	102
+0x4ca01bc0	android/os/Looper	myLooper	()Landroid/os/Looper;	Looper.java	163
+0x4cc9f808	com/here/android/mpa/guidance/NavigationManager	getRunningState	()Lcom/here/android/mpa/guidance/NavigationManager$NavigationState;	NavigationManager.java	2336
+0x4cc9f058	com/here/android/mpa/guidance/NavigationManager	getInstance	()Lcom/here/android/mpa/guidance/NavigationManager;	NavigationManager.java	2392
+0x4c988420	android/os/SystemClock	uptimeMillis	()J	SystemClock.java	-2
+0x4c9522f8	java/lang/ref/Reference	get	()Ljava/lang/Object;	Reference.java	133
+0x4c952210	java/lang/ref/Reference	<init>	(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V	Reference.java	85
+0x4cca1948	java/util/Timer$TimerImpl	access$400	(Ljava/util/Timer$TimerImpl;)Z	Timer.java	54
+0x4cca1980	java/util/Timer$TimerImpl	access$500	(Ljava/util/Timer$TimerImpl;Ljava/util/TimerTask;)V	Timer.java	54
+0x4cca19b8	java/util/Timer$TimerImpl	insertTask	(Ljava/util/TimerTask;)V	Timer.java	298
+0x4c976560	java/lang/ref/WeakReference	<init>	(Ljava/lang/Object;Ljava/lang/ref/ReferenceQueue;)V	WeakReference.java	108
+0x4ca8ea90	android/database/sqlite/SQLiteDatabase	compileStatement	(Ljava/lang/String;)Landroid/database/sqlite/SQLiteStatement;	SQLiteDatabase.java	1018
+0x4ca8eac8	android/database/sqlite/SQLiteDatabase	createSession	()Landroid/database/sqlite/SQLiteSession;	SQLiteDatabase.java	392
+0x4ca8ed68	android/database/sqlite/SQLiteDatabase	getPath	()Ljava/lang/String;	SQLiteDatabase.java	1756
+0x4ca8edd8	android/database/sqlite/SQLiteDatabase	getThreadDefaultConnectionFlags	(Z)I	SQLiteDatabase.java	407
+0x4ca8ee10	android/database/sqlite/SQLiteDatabase	getThreadSession	()Landroid/database/sqlite/SQLiteSession;	SQLiteDatabase.java	387
+0x4ca8ee48	android/database/sqlite/SQLiteDatabase	getVersion	()I	SQLiteDatabase.java	890
+0x4ca8f078	android/database/sqlite/SQLiteDatabase	isReadOnly	()Z	SQLiteDatabase.java	1708
+0x4ca8f238	android/database/sqlite/SQLiteDatabase	query	(Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDatabase.java	1266
+0x4ca8f270	android/database/sqlite/SQLiteDatabase	query	(ZLjava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Landroid/database/Cursor;	SQLiteDatabase.java	1060
+0x4ca8f318	android/database/sqlite/SQLiteDatabase	queryWithFactory	(Landroid/database/sqlite/SQLiteDatabase$CursorFactory;ZLjava/lang/String;[Ljava/lang/String;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;	SQLiteDatabase.java	1184
+0x4ca8f3f8	android/database/sqlite/SQLiteDatabase	rawQueryWithFactory	(Landroid/database/sqlite/SQLiteDatabase$CursorFactory;Ljava/lang/String;[Ljava/lang/String;Ljava/lang/String;Landroid/os/CancellationSignal;)Landroid/database/Cursor;	SQLiteDatabase.java	1338
+0x4ca8e5f0	android/database/sqlite/SQLiteDatabase	findEditTable	(Ljava/lang/String;)Ljava/lang/String;	SQLiteDatabase.java	-1
+0x4ca8e698	android/database/sqlite/SQLiteDatabase	isMainThread	()Z	SQLiteDatabase.java	418
+0x4ca8e6d0	android/database/sqlite/SQLiteDatabase	isReadOnlyLocked	()Z	SQLiteDatabase.java	-1
+0x4ca8e708	android/database/sqlite/SQLiteDatabase	open	()V	SQLiteDatabase.java	817
+0x4ca8e778	android/database/sqlite/SQLiteDatabase	openDatabase	(Ljava/lang/String;Landroid/database/sqlite/SQLiteDatabase$CursorFactory;ILandroid/database/DatabaseErrorHandler;)Landroid/database/sqlite/SQLiteDatabase;	SQLiteDatabase.java	721
+0x4ca8e7b0	android/database/sqlite/SQLiteDatabase	openInner	()V	SQLiteDatabase.java	830
+0x4ca8e8c8	android/database/sqlite/SQLiteDatabase	throwIfNotOpenLocked	()V	SQLiteDatabase.java	2194
+0x4c94f550	java/nio/BaseByteBuffer	<init>	(ILjava/nio/MemoryBlock;)V	BaseByteBuffer.java	26
+0x4cc8bd18	com/nokia/maps/an$d	onLocationChanged	(Landroid/location/Location;)V	DeviceLocation.java	654
+0x4cc29e70	android/database/sqlite/SQLiteConnection$PreparedStatement	<init>	()V	SQLiteConnection.java	1279
+0x4cc29ea8	android/database/sqlite/SQLiteConnection$PreparedStatement	<init>	(Landroid/database/sqlite/SQLiteConnection$1;)V	SQLiteConnection.java	1279
+0x4cca2328	com/nokia/maps/an$e	<init>	(Lcom/nokia/maps/an;)V	DeviceLocation.java	454
+0x4cca2360	com/nokia/maps/an$e	<init>	(Lcom/nokia/maps/an;Lcom/nokia/maps/an$1;)V	DeviceLocation.java	454
+0x4c9475c8	java/lang/Thread	currentThread	()Ljava/lang/Thread;	Thread.java	476
+0x4c947788	java/lang/Thread	sleep	(J)V	Thread.java	1013
+0x4c9477c0	java/lang/Thread	sleep	(JI)V	Thread.java	1031
+0x4cc584d0	com/nokia/maps/MapsEngine	isInternalBuild	()Z	MapsEngine.java	-2
+0x4c976650	java/util/LinkedHashMap$LinkedEntry	<init>	(Ljava/lang/Object;Ljava/lang/Object;ILjava/util/HashMap$HashMapEntry;Ljava/util/LinkedHashMap$LinkedEntry;Ljava/util/LinkedHashMap$LinkedEntry;)V	LinkedHashMap.java	156
+0x4c9f83b0	android/os/MessageQueue	enqueueMessage	(Landroid/os/Message;J)Z	MessageQueue.java	-1
+0x4c9f84c8	android/os/MessageQueue	next	()Landroid/os/Message;	MessageQueue.java	118
+0x4c9f8300	android/os/MessageQueue	nativePollOnce	(II)V	MessageQueue.java	-2
+0x4c965620	java/lang/System	arraycopy	(Ljava/lang/Object;ILjava/lang/Object;II)V	System.java	-2
+0x4c9656c8	java/lang/System	currentTimeMillis	()J	System.java	-2
+0x4c9f3648	android/database/CursorWindow	<init>	(Ljava/lang/String;)V	CursorWindow.java	99
+0x4c9f3798	android/database/CursorWindow	nativeCreate	(Ljava/lang/String;I)I	CursorWindow.java	-2
+0x4cc29f58	android/database/sqlite/SQLiteStatementInfo	<init>	()V	SQLiteStatementInfo.java	24
+0x4cabf0a8	android/location/ILocationManager$Stub$Proxy	locationCallbackFinished	(Landroid/location/ILocationListener;)V	ILocationManager.java	776
+0x4c952e38	java/lang/ref/ReferenceQueue	poll	()Ljava/lang/ref/Reference;	ReferenceQueue.java	-1
+0x4ca8ffa8	android/database/sqlite/SQLiteOpenHelper	getWritableDatabase	()Landroid/database/sqlite/SQLiteDatabase;	SQLiteOpenHelper.java	163
+0x4ca8ffe0	android/database/sqlite/SQLiteOpenHelper	onConfigure	(Landroid/database/sqlite/SQLiteDatabase;)V	SQLiteOpenHelper.java	312
+0x4ca90088	android/database/sqlite/SQLiteOpenHelper	onOpen	(Landroid/database/sqlite/SQLiteDatabase;)V	SQLiteOpenHelper.java	378
+0x4ca8fec0	android/database/sqlite/SQLiteOpenHelper	getDatabaseLocked	(Z)Landroid/database/sqlite/SQLiteDatabase;	SQLiteOpenHelper.java	-1
+*end
+SLOW   Æ*Bî!                 ™*•L   +-   Áw”L   ÈU   ‰w”L
+   ÍU   ĞÃÈL   ÕU   ÑÃÈL   ÚU   xüÈL   âU   øøÈL#   æU   0ùÈL(   éU    „˜L+   ìU   !„˜L8   ûU   pùÈL=    V   ĞÃÈLA   V   ÑÃÈLB   V    „˜LG   	V   !„˜LL   V   (ÃÈLP   V   PÇÈLS   V   QÇÈLi   ,V   )ÃÈLl   /V   qùÈLo   2V   1ùÈLs   6V   ùøÈLt   7V   yüÈLx   ;V   ˆw”L{   >V   Àw”L~   AV   HŒ”L‚   EV   ¸šÂL   uV   €šÂL   xV   šÂL	   |V   ¹šÂL   V   ÈV–L   †V   ÉV–L   ‹V   €—ÂL   V   —ÂL   ‘V   Á—ÂL"   •V   ¨IŸL'   ˜V   ˆÙ°L*   V   €F—L/   ¢V   øg”L4   ¥V   ùg”L7   ªV   F—L<   ¯V   pØ°L@   ³V   qØ°LC   ¶V   ‰Ù°LF   ¸V   ¨PŸLJ   ½V   ©PŸLÔ   IW    PŸLÙ   LW   PŸLŞ   QW   ğÏ¨Lá   TW   0o”Læ   XW   1o”Lí   ^W   `j”L  W   aj”L  ’W   ¨m”L"  •W   ĞZ”L,  ŸW   ÑZ”L0  £W   ©m”L3  ¦W   øn”L8  «W   @1£L;  ®W    9œL@  ²W   9œLB  µW   pf”LT  ÇW   qf”LY  ËW   pf”L[  ÎW   qf”L^  ÑW   pf”Lb  ÕW   qf”Le  ØW   Hk•Lj  ÛW   Ik•Lm  ßW   x1£Lo  âW   y1£Lr  åW   y•Lv  éW   Hy•Ly  ìW   Iy•L|  ïW   y•L€  óW   Hk•Lƒ  öW   Ik•L†  øW   x1£Lˆ  ûW   y1£L‹  şW   y•L  X   Hy•L  X   Iy•L”  X   y•L—  X   Hk•L™  X   Ik•Lœ  X   x1£LŸ  X   y1£L¡  X   y•L¤  X   Hy•L¨  X   Iy•L©  X   y•L­   X   A1£L°  !X   ùn”L²  %X   pf”Lµ  (X   qf”L¸  +X   pf”L¼  /X   qf”L¿  2X   pf”LÂ  4X   qf”LÄ  7X   pf”LÇ  :X   qf”LË  >X   pf”LÌ  ?X   qf”LĞ  CX   pf”LÓ  FX   qf”LÖ  IX   pf”LØ  KX   qf”LÛ  NX   pf”Lß  RX   qf”Lâ  UX   pf”Lå  XX   qf”Lç  ZX   pf”Lê  ]X   qf”Lî  aX   pf”Lñ  bX   qf”Ló  fX   pf”Lö  iX   qf”Lù  lX   ñÏ¨Lı  pX   8PŸL   sX   9PŸL  xX   øQŸL
+  }X   ùQŸL  €X    KŸL  „X   ¡KŸL  ‡X   ©IŸL  ‰X   UŸL  ŒX   	UŸL  X   PJŸL   “X   QJŸL#  –X   àIŸL&  ™X   `‹ÂL*  X   ¨f”L/   X   ©f”L2  £X   a‹ÂL4  §X   £L7  ªX   ğl™L<  ¯X   Èu”L?  ²X   Ø‹”LC  ¶X   Ù‹”LF  ¹X   Éu”LI  ¼X   n™LM  ¾X   	n™LN  ÁX   p†£LR  ÅX   q†£LU  ÈX   ¨†£LX  ËX   ©†£L\  ÏX   ñl™L_  ÒX   £Ld  ×X   x‚£Li  ÜX   y‚£Ll  ßX   áIŸLn  áX   JŸLq  äX   JŸLu  èX   ˜MŸLx  ëX   ™MŸL  Z   ÀJŸL—  
+Z   ÁJŸLš  Z   ØRŸL  Z   0KŸL¢  Z    OŸL¦  Z   !OŸLµ  (Z    RŸL¸  +Z   ¡RŸL»  .Z   1KŸL¿  2Z   ÙRŸLÂ  3Z   h˜ÂLÅ  8Z   Ø–ÂLÉ  <Z   —ÂLÌ  ?Z   —ÂLÏ  BZ   ÈV–LÓ  FZ   ÉV–LØ  IZ   Ù–ÂLÛ  NZ   i˜ÂLŞ  QZ   	WŸLâ  UZ   XXŸLå  XZ   À—ÂLê  ]Z   ¸šÂLô  gZ   €šÂL÷  jZ   šÂLû  nZ   ¹šÂLü  oZ   ÈV–L  tZ   ÉV–L  xZ   €—ÂL  {Z   —ÂL  ~Z   Á—ÂL  €Z   ¨IŸL  ƒZ   ˆÙ°L  ‡Z   €F—L  ŠZ   øg”L  Z   ùg”L  ‘Z   F—L!  ”Z   pØ°L&  ™Z   qØ°L(  ›Z   ‰Ù°L+  Z   ¨PŸL.  ¡Z   ©PŸLf  Ş[    PŸLp  ã[   PŸLu  è[   ğÏ¨Lx  ë[   0o”L|  ï[   1o”L  ô[   `j”L„  ÷[   aj”L‡  ú[   ¨m”L‹  ş[   ĞZ”L•  \   ÑZ”L˜  \   ©m”L›  \   øn”LŸ  \   @1£L¢  \    9œL¥  \   9œL©  \   pf”Lª  \   qf”L¯  "\   pf”L³  &\   qf”L¶  '\   pf”L¸  +\   qf”L»  .\   Hk•L¾  1\   Ik•LÂ  5\   x1£LÅ  8\   y1£LÈ  ;\   y•LÌ  ?\   Hy•LÏ  @\   Iy•LÑ  D\   y•LÔ  G\   Hk•L×  J\   Ik•LÙ  L\   x1£LÜ  O\   y1£Là  S\   y•Lá  T\   Hy•Lå  X\   Iy•Lè  [\   y•Lê  ]\   Hk•Lí  `\   Ik•Lğ  c\   x1£Lò  e\   y1£Lõ  h\   y•Lù  l\   Hy•Lú  m\   Iy•Lş  q\   y•L  r\   A1£L  v\   ùn”L  y\   pf”L	  |\   qf”L  ~\   ñÏ¨L  \   8PŸL  …\   9PŸL  Š\   øQŸL  \   ùQŸL  \    KŸL!  ”\   ¡KŸL"  •\   hÚ°L&  ™\   ø×°L+  \   €Û°L.  ¡\   Û°L0  £\   ù×°L3  ¦\   XQ—L6  ©\   øg”L:  ­\   ùg”L=  °\   ğL—L@  ³\   ñL—LD  ·\   0K—LI  ¼\    K—LL  ¿\   ¡K—LV  É\   1K—LY  Ì\   0E—L]  Ğ\   Pf—Lc  Õ\   p\—Lg  Ú\   q\—Lj  İ\   Qf—Lm  ß\   1E—Lr  ä\   YQ—Lt  ç\   0Ø°Ly  ê\   ĞO—L|  î\   ÑO—L~  ñ\   1Ø°L  ô\   iÚ°L…  ø\   ©IŸLˆ  û\   UŸL‹  ı\   	UŸL   ]   PJŸL  ]   QJŸL”  ]   àIŸL—  ]   `‹ÂLš  ]   ¨f”Lœ  ]   ©f”LŸ  ]   a‹ÂL£  ]   £L¦  ]   ğl™L©  ]   Èu”L­   ]   Ø‹”L°  !]   Ù‹”L³  &]   Éu”Lµ  (]   n™L¸  +]   	n™L¼  /]   p†£L½  0]   q†£LÁ  4]   ¨†£LÄ  7]   ©†£LÇ  :]   ñl™LË  <]   £LÎ  ?]   x‚£LÑ  D]   y‚£LÕ  H]   áIŸLÖ  I]   JŸLÚ  M]   JŸLİ  P]   èNŸLà  S]   éNŸLí  c^   ÀJŸLó  f^   ÁJŸLø  j^   ØRŸLü  o^   ˆQŸLÿ  r^   ‰QŸL"  •^   ÙRŸL%  ˜^   h˜ÂL)  œ^   Ø–ÂL,  Ÿ^   —ÂL/  ¢^   —ÂL3  ¦^   ÈV–L6  ©^   ÉV–L9  ¬^   Ù–ÂL=  °^   i˜ÂL@  ³^   YXŸLC  ¶^   pf”LG  º^   qf”LJ  ½^   )TŸLM  À^   !—LR  Ä^   !—LT  Ç^   iRŸLW  Ê^   1RŸL[  Î^   9‘ÂL^  Ï^   `|—La  Ô^   a|—Lf  Ø^   ‘ÂLh  Û^   ÉÂLk  Ş^   `|—Lo  â^   a|—Lr  å^   HE¤Lw  ê^   E¤Lz  í^   8.•L~  ñ^   9.•Lƒ  ô^   E¤L„  ÷^   `1”Lˆ  û^   a1”L‹  ş^   øG¤L“  _   `e—L—  
+_   "•Lš  _   "•L  _   ae—L¡  _   `1”L¢  _   a1”L¦  _   ùG¤L©  _   IE¤L¬  _   ±ç¨L°  !_   	ç¨L±  $_   yç¨Lµ  (_   ˜+–Lº  -_   ™+–L½  0_   X¤¥LÀ  3_   ˜€ŸLÅ  8_   ™€ŸL8	  ­_   Y¤¥L=	  °_   )²¥LA	  ´_   ¶¢LD	  ·_   àÿ¨LI	  ¼_   áÿ¨LL	  ¿_   Hî¨LP	  Ã_   `Ğ¨LS	  Æ_   ê¨LV	  É_   ØCŸLZ	  Í_   ÙCŸL]	  Ğ_   h©Ld	  ×_   H©Li	  Ú_   ˜CŸLl	  İ_   ™CŸLn	  á_   0o”Lq	  ä_   1o”Lv	  é_   ğÏ¨Ly	  ì_   0o”L}	  î_   1o”L~	  ñ_   `j”L‚	  õ_   aj”L…	  ø_   ¨m”Lˆ	  û_   ĞZ”L	   `   ÑZ”L‘	  `   ©m”L”	  `   øn”L—	  	`   @1£L›	  `    9œL	  `   9œL¡	  `   pf”L£	  `   qf”L¦	  `   pf”Lª	  `   qf”L­	   `   pf”L¯	  "`   qf”L²	  %`   Hk•Lµ	  (`   Ik•L¹	  ,`   x1£L¼	  -`   y1£L¾	  1`   y•LÁ	  4`   Hy•LÄ	  7`   Iy•LÈ	  9`   y•LÉ	  <`   Hk•LÍ	  @`   Ik•LĞ	  C`   x1£LÓ	  E`   y1£LÕ	  H`   y•LØ	  K`   Hy•LÜ	  M`   Iy•Lİ	  P`   y•Lá	  T`   Hk•Lä	  W`   Ik•Læ	  Y`   x1£Lé	  \`   y1£Lì	  _`   y•Lî	  a`   Hy•Lñ	  d`   Iy•Lõ	  f`   y•Lö	  i`   A1£Lú	  m`   ùn”Lı	  n`   pf”Lÿ	  r`   qf”L
+  u`   pf”L
+  w`   qf”L
+  z`   pf”L
+
+  }`   qf”L
+  `   pf”L
+  ‚`   qf”L
+  †`   pf”L
+  ‡`   qf”L
+  ‹`   pf”L
+  `   qf”L
+  `   pf”L 
+  “`   qf”L#
+  –`   pf”L%
+  ˜`   qf”L(
+  ›`   pf”L,
+  Ÿ`   qf”L/
+  ¢`   pf”L1
+  ¤`   qf”L4
+  §`   pf”L7
+  ©`   qf”L9
+  ¬`   ñÏ¨L<
+  ¯`   XŸÂLC
+  ¶`   YŸÂLF
+  ¸`   î¨LH
+  »`   ğl™LK
+  ¾`   Èu”LO
+  Â`   Ø‹”LR
+  Å`   Ù‹”LU
+  È`   Éu”LY
+  Ì`   n™L\
+  Í`   	n™L^
+  Ñ`   p†£La
+  Ô`   q†£Ld
+  ×`   ¨†£Lh
+  Ù`   ©†£Li
+  Ü`   8ˆ£Ln
+  à`   xl™Lr
+  ã`   yl™Ls
+  æ`   (ú¨Lw
+  ê`   ğù¨Lz
+  í`   Èê¨L}
+  ğ`   Èè¨L
+  ô`   Éè¨L„
+  ÷`   € ÂL‰
+  ü`    ÂLŒ
+  ÿ`   Éê¨L
+  a   ñù¨L‘
+  a   )ú¨L•
+  a   °l™L˜
+  a   ±l™Lš
+  a   à†£L 
+  a   À‡£L¤
+  a   P‡£L©
+  a   Q‡£L´
+  'a   ø"•L»
+  .a   ù"•L¾
+  1a    ˆ£LÃ
+  5a   xl™LÅ
+  8a   yl™LÈ
+  ;a   °l™LÌ
+  ?a   ±l™LÏ
+  Ba   ˆ£LÒ
+  Ea   ø"•L×
+  Ja   ù"•LÛ
+  Na    ˆ£Là
+  Qa   xl™Lá
+  Ta   yl™Lå
+  Xa   °l™Lè
+  [a   ±l™Lê
+  ]a   ˆ£Lí
+  `a   ø"•Lò
+  ea   ù"•Lõ
+  ha    ˆ£Lù
+  la   xl™Lü
+  oa   yl™Lş
+  qa   °l™L  ta   ±l™L  wa   ˆ£L  {a   ø"•L  €a   ù"•L  a    ˆ£L  …a   xl™L  ˆa   yl™L  Ša   °l™L  a   ±l™L  a   ˆ£L!  ”a   ø"•L&  ™a   ù"•L'  ša   ø"•L+  a   ù"•L.  ¡a    ˆ£L1  ¤a   xl™L5  ¨a   yl™L8  «a   °l™L;  ­a   ±l™L=  °a   ˆ£L@  ³a   ø"•LD  ·a   ù"•LG  ºa    ˆ£LJ  ½a   xl™LL  ¿a   yl™LO  Âa   °l™LS  Æa   ±l™LV  Ça   ˆ£LX  Ëa   ø"•L]  Ğa   ù"•L`  Ña    ˆ£Lc  Õa   xl™Le  Øa   yl™Lh  Ûa   °l™Ll  ßa   ±l™Lm  àa   ˆ£Lr  äa   ø"•Lv  éa   ù"•Ly  ìa    ˆ£L|  ïa   xl™L€  ña   yl™L  ôa   °l™L…  øa   ±l™Lˆ  ùa   ˆ£L‹  ıa   ø"•L  b   ù"•L’  b    ˆ£L•  b   xl™L™  
+b   yl™Lš  b   °l™L  b   ±l™L¡  b   ˆ£L¤  b   ø"•L¨  b   ù"•L©  b    ˆ£L­   b   xl™L°  #b   yl™L³  &b   ˆ‡£L·  *b   ‰‡£L¸  +b   °l™L¼  /b   ±l™L¿  2b   ˆ£LÂ  5b   ø"•LÇ  :b   ù"•LË  >b    ˆ£LÎ  Ab   xl™LÑ  Cb   yl™LÓ  Fb   °l™LÖ  Ib   ±l™LÚ  Mb   ˆ£Lİ  Nb   ø"•Là  Sb   ù"•Lä  Wb    ˆ£Lç  Zb   xl™Lé  \b   yl™Lì  _b   ˆ‡£Lï  bb   ‰‡£Lñ  db   °l™Lô  gb   ±l™Lø  kb   ˆ£Lû  nb   Á‡£Lı  pb   á†£L   sb   9ˆ£L  vb   ñl™L  xb   î¨L  {b   Øí¨L  b   ˜æ¨L  ‚b   À L  …b   ğl™L  Šb   Èu”L  b   Ø‹”L  b   Ù‹”L   “b   Éu”L#  –b   n™L%  ˜b   	n™L(  ›b   p†£L+  b   q†£L/   b   ¨†£L0  £b   ©†£L4  §b   8ˆ£L7  ªb   xl™L9  ¬b   yl™L<  ¯b   ˆ‡£L?  ²b   ‰‡£LA  ´b   °l™LD  ·b   ±l™LH  ¹b   9ˆ£LI  ¼b   ñl™LM  Àb   Á LP  Ãb   P LS  Åb   Q LW  Êb   ™æ¨LZ  Ëb   Ùí¨L\  Ïb    ¦ÂL_  Òb   ¸ ÂLb  Õb   p“ÂLg  Úb   ø’ÂLk  Şb   P’ÂLp  ãb   Q’ÂLs  æb   À’ÂLv  èb   xÂLz  íb   ZŸL}  ğb   ZŸL€  ób   HE¤L„  ÷b   E¤L‡  øb   8.•L‰  üb   9.•LŒ  ÿb   E¤L  c   `1”L“  c   a1”L”  c   øG¤L›  c   `e—L  c   "•L¢  c   "•L£  c   ae—L§  c   `1”Lª  c   a1”L­  c   ùG¤L¯  "c   IE¤L²  %c   yÂL¶  'c   Á’ÂL·  *c   ù’ÂL»  .c   q“ÂL¼  /c   ¹ ÂLÀ  3c   ¨YŸLÃ  6c   À—ÂLÆ  9c   ¸šÂLË  >c   €šÂLÏ  Bc   šÂLÒ  Ec   ¹šÂLÔ  Gc   ÈV–LÙ  Jc   ÉV–LÜ  Mc   €—ÂLß  Qc   —ÂLã  Tc   Á—ÂLä  Wc   ¨IŸLè  [c   ˆÙ°Lë  ^c   €F—Lî  ac   øg”Lò  ec   ùg”Lõ  fc   F—Lø  jc   pØ°Lü  mc   qØ°Lı  pc   ‰Ù°L  tc   ¨PŸL  wc   ©PŸLT  Çc    PŸLY  Ìc   PŸL\  Ïc   ğÏ¨L`  Óc   0o”Lc  Öc   1o”Lh  Ûc   `j”Lj  İc   aj”Lm  àc   ¨m”Lp  ãc   ĞZ”Lw  êc   ÑZ”Lz  ìc   ©m”L|  ïc   øn”L  òc   @1£Lƒ  öc    9œL†  ùc   9œL‰  ûc   pf”L‹  şc   qf”L  d   pf”L’  d   qf”L•  d   pf”Lí  ´    @"ÊL   ~d   X •L   d     •L   –d   "•L   —d   "•L   ›d   ! •L!   d   Y •L&   £d   A"ÊL*   ¦d   ™ÊL-   ªd   aÊL0   ­d   `#ÊL7   ´d   (#ÊL:   ·d    ÊL>   ºd   	 ÊLC   ¿d   )#ÊLF   Ád   a#ÊLH   Äd   (ÊLK   Èd   @ÊLP   Íd   HÊLU   Ğd   IÊLW   Ód   ÈV–LZ   ×d   ÉV–L_   Úd   ¸ ÊLb   ßd   ¹ ÊLg   âd   €ÊLk   æd   ¸ÊLl   éd   HÊLp   ìd   `ÊLv   ñd   aÊLz   õd   IÊL{   ød   ˜1”L   ûd   ™1”LŒ   	e   ¹ÊL   
+e   ÊL‘   e   AÊL”   e   )ÊL–   e   ©²ÈL™   e   á²ÈL›   e   è·ÈL    e   0Y™L£    e   1Y™L§   "e   0Y™L¨   %e   1Y™L¬   'e   é·ÈL¯   *e   ?—L¶   1e   ?—L·   4e   Ğü«L¼   9e   Ñü«LÀ   <e   €Z•LÃ   @e   X•LÈ   Ee   0U•LË   Fe   1U•LÍ   Je   X•LĞ   Me   Z•LÒ   Oe   ı«L×   Te   	ı«LÙ   Ue   €Z•LÜ   Ye   X•Lß   \e   0U•Lã   _e   1U•Lä   ae   X•Lè   ce   Z•Lé   fe   °ı«Lí   ie   ±ı«Lğ   ke    —•Ló   ne   p‘•Lø   se   0U•Lú   we   1U•Lı   xe   q‘•Lÿ   |e   !—•L  }e   xı«L  e   yı«L  „e   ĞQ•L  ‡e   hO•L  ‹e   0U•L  e   1U•L  ‘e   iO•L  “e   ÑQ•L  •e   @ı«L  še   Aı«L   ›e   (xÄL$  Ÿe   ¸wÄL'  ¢e   ¹wÄL*  ¥e   )xÄL,  ©e   è£ÈL1  ¬e   ?—L6  ³e   ?—L9  ´e   Ğü«L;  ¸e   Ñü«L>  »e   €Z•L@  ½e   X•LE  Àe   0U•LG  Ãe   1U•LJ  Åe   X•LL  Èe   Z•LO  Êe   ı«LQ  Íe   	ı«LT  Ïe   €Z•LV  Òe   X•L[  Öe   0U•L\  Ùe   1U•L^  Ûe   X•La  Şe   Z•Lc  àe   xı«Lf  ãe   yı«Lh  åe   ĞQ•Lk  èe   hO•Lo  ëe   0U•Lr  íe   1U•Lt  ğe   iO•Lw  òe   ÑQ•Ly  õe   °ı«L|  ùe   ±ı«L~  úe    —•L  şe   p‘•L„  f   0U•Lˆ  f   1U•L‰  f   q‘•L  f   !—•L  f   (xÄL’  f   ¸wÄL“  f   ¹wÄL—  f   )xÄL˜  f   ˜ ÈLœ  f   XğÉLŸ  f   YğÉL¢  f   øÉL¦  "f   ,ÉL«  &f   °ÉL®  )f   ±ÉLÉ  Ef   ‘,ÉLÌ  If   	øÉLÏ  Jf   @ı«LÔ  Qf   Aı«LØ  Sf   Ğü«LÛ  Vf   Ñü«Lİ  Yf   €Z•Là  [f   X•Lã  `f   0U•Lç  bf   1U•Lè  ef   X•Lê  gf   Z•Lí  jf   ı«Lñ  lf   	ı«Lò  of   €Z•Lö  qf   X•Lù  vf   0U•Lû  wf   1U•Lş  {f   X•L   |f   Z•L  ~f   xı«L  f   yı«L  …f   ĞQ•L  †f   hO•L  ‹f   0U•L  f   1U•L  f   iO•L  ’f   ÑQ•L  ”f   (xÄL  —f   ¸wÄL  šf   ¹wÄL!  œf   )xÄL#  Ÿf   à>—L&  ¡f   á>—L(  ¤f   Ğü«L+  ¦f   Ñü«L-  ©f   ı«L0  «f   	ı«L2  ®f   (ü«L5  °f   )ü«L7  ³f   ş«L:  ·f   ‘ş«L<  ¸f   Xş«LA  ¼f   Yş«LB  ¿f   èı«LF  Âf   éı«LG  Äf   ğû«LK  Çf   ñû«LN  Éf   èı«LP  Ìf   éı«LS  Îf   ğû«LU  Ñf   ñû«LX  Óf   °ı«LZ  Öf   ±ı«L]  Øf   p£ÈL_  Ûf   q£ÈLÍ
+  Oo   ™ ÈL×
+  To   ı«LÚ
+  Wo   	ı«LŞ
+  Zo   Ğü«Lá
+  ^o   Ñü«Lä
+  _o   è%ÊLğ
+  mo   0ñÅLõ
+  ro   X •Lü
+  xo     •L  }o   "•L  o   "•L  „o   ! •L	  †o   Y •L  ‹o    ñÅL  o   ¡ñÅL  ‘o   1ñÅL  •o   Ğü«L  ˜o   Ñü«L  ›o   ı«L"  Ÿo   	ı«L$   o   (ü«L'  ¤o   )ü«L*  ¥o   À•ÈL.  ©o   0ñÅL/  ¬o   X •L3  ¯o     •L8  ³o   "•L9  ¶o   "•L=  ¹o   ! •L>  »o   Y •LB  ¾o    ñÅLE  Âo   ¡ñÅLG  Ão   1ñÅLJ  Ço   °F”LO  Ìo   ±F”LR  Ïo   `óÄLV  Òo   X •LY  Öo     •L\  Ùo   "•L`  Ûo   "•La  Şo   ! •Le  ào   Y •Lf  ão   aóÄLj  æo   H—ÈLm  êo   I—ÈL  üo   Á•ÈL  şo   èı«L„  p   éı«Lˆ  p   ğû«L‹  p   ñû«L  	p   ş«L  p   ‘ş«L’  p   Xş«L•  p   Yş«L˜  p   °ı«Lš  p   ±ı«L  p   8'ÊL¡  p   9'ÊL³  0p   é%ÊL¶  1p   X&ÊLº  5p   Ğ/ÊL¿  ;p   ˜/ÊLÂ  ?p   8+ÊLÇ  ù—    A2”L   —p    €ÊL   p    ÊL   Ÿp    ÈV–L   £p    ÉV–L   ¨p    ¸ÊL   ©p    ¹ÊL   ­p    x2”L   ²p    °2”L    µp   °aŸL   ìp   ±aŸL
+   ôp   HnŸL4   q   IŒ”LÎ   T•   Áw”LÜ   [•   ‰w”Lá   `•   ĞÃÈLé   h•   ÑÃÈLî   m•   xüÈLö   u•   øøÈLú   y•   0ùÈLı   |•    „˜L   •   !„˜L  •   pùÈL  ••   ĞÃÈL  —•   ÑÃÈL  š•    „˜L  •   !„˜L%  ¤•   (ÃÈL(  §•   PÇÈL,  «•   QÇÈLA  À•   )ÃÈLE  Ä•   qùÈLH  Ç•   1ùÈLK  É•   ùøÈLM  Ì•   yüÈLP  Ï•   ˆw”LT  Ó•   Àw”LW  Ö•   HŒ”LZ  Ù•   ±wŸL&   –   ñ©L+   –   Ù©L.   –   Ñ•L2   –   Ğ•Lƒ   l–   `•LŠ   s–   °‡•L’   {–   0U•L—   ~–   1U•L›   ƒ–   ±‡•Lœ   …–   a•L    ˆ–   `O—L£   Œ–   `•L¨   –   a•Lª   ’–   ğ•L²   ›–   ñ•Lµ   –   aO—L¹   ¡–   ¸•LÁ   ª–   ¹•LÄ   ­–   Ø©LÈ   °–   H©LÍ   µ–    qŸLĞ   ¹–   P'•LÓ   ¼–   Q'•LØ   ¿–   !qŸLÚ   Ã–   ¸•Lâ   Ë–   ¹•Læ   Î–   I©Lé   Ò–   Ù©Lì   Ó–   Ñ•Lî   ×–   Ğ•L
+  ó–   `•L  ø–   °‡•L  ı–   0U•L  ÿ–   1U•L  —   ±‡•L  —   a•L  —   `O—L"  
+—   `•L%  —   a•L'  —   ğ•L,  —   ñ•L/  —   aO—L2  —   ¸•L7   —   ¹•L;  "—   È©L>  %—    ©LA  *—   €2¢LE  -—   Èø”LH  1—   ø£LK  4—   ù£LP  9—   °¤LU  <—   (¤LY  @—   `¤L\  C—   Põ”L_  F—   è÷”Lc  J—   P•Lf  M—   Q•Li  R—   é÷”Lm  U—   Qõ”Ln  W—   a¤Ls  Z—   )¤Lu  ^—   ±¤Lx  _—   Éø”Lz  c—   x •L}  f—   è •L  i—   é •L„  m—   y •L‡  n—   2¢L‰  r—    ¤LŒ  u—   ¡¤L  x—   hÂL“  |—   iÂL¯  ˜—   ©L´  —   É©L¶  Ÿ—   Ñ•L¹  ¢—   Ğ•LÒ  ½—   9+ÊLã  ş—   ™/ÊLç  ˜   Ñ/ÊLê  ˜   Y&ÊLí  ˜   ¸ŸÈLò  ˜   pšÉLö  ˜   Ğ„ÅLù  ˜   Ñ„ÅL   ˜   qšÉL  ˜    ,ÊL  ˜    (ÊL
+  "˜   ¨'ÊL  &˜   ø•ÈLG  c˜   0ñÅLL  g˜   X •LS  l˜     •LX  r˜   "•L[  v˜   "•L_  w˜   ! •L`  {˜   Y •Le  €˜    ñÅLi  ƒ˜   ¡ñÅLl  †˜   1ñÅLo  ˆ˜   °F”Lt  ˜   ±F”Lx  ’˜   `óÄL{  •˜   X •L~  ™˜     •Lƒ  ˜   "•L…  Ÿ˜   "•Lˆ  £˜   ! •LŠ  ¤˜   Y •L  ¨˜   aóÄL‘  «˜   ù•ÈL”  ­˜   ©'ÊL™  ²˜   —ÈL›  µ˜   p”ÈL   º˜   8”ÈL£  ½˜   ˜ÈL¨  Â˜   ™ÈL«  Æ˜   9”ÈL­  Ç˜   q”ÈL°  É˜   —ÈL²  Ì˜   !(ÊLµ  Î˜   !,ÊL·  Ñ˜   `‘ÈLº  Õ˜   œÈL¾  Ø˜   °™ÈLÁ  Ú˜   ±™ÈLÈ  â˜   ˜šÈLË  å˜   ™ÈLÎ  é˜   	™ÈLÕ  î˜   ™šÈL×  ñ˜   `B•Lğ  
+™   aB•Ló  ™   ‘œÈLø  ™   a‘ÈLú  ™   ?—L  ™   ?—L  ™   ?—L
+  %™   ?—L  &™    ,ÊL  *™    (ÊL/  I™   ¨'ÊL2  K™   ø•ÈLM  g™   0ñÅLP  k™   X •LU  n™     •LY  s™   "•L\  v™   "•L_  x™   ! •La  {™   Y •Ld  ™    ñÅLh  ‚™   ¡ñÅLk  „™   1ñÅLm  ‡™   °F”Lr  Š™   ±F”Ls  ™   `óÄLw  ‘™   X •Lz  ”™     •L}  ˜™   "•L  ™™   "•L‚  ™   ! •L†  ™   Y •L‰  ¢™   aóÄL‹  ¥™   ù•ÈL  §™   ©'ÊL‘  ¬™   —ÈL•  ­™   p”ÈL˜  ±™   8”ÈLš  ´™   ˜ÈLŸ  ¹™   ™ÈL   »™   9”ÈL¤  ¾™   q”ÈL¥  À™   —ÈL©  Á™   !(ÊLª  Å™   !,ÊL®  Æ™   ¸ÈL±  Ê™   ˜šÈL³  Í™   ™ÈL¶  Ï™   	™ÈL»  Õ™   ™šÈL¾  ×™   ¹ÈLÀ  Ú™   €Z•LÃ  Ş™   X•LÈ  á™   0U•LÊ  ä™   1U•LÍ  è™   X•LÏ  é™   Z•LÒ  ë™    ,ÊLÖ  ğ™    (ÊLÙ  ò™   ¨'ÊLÛ  õ™   ø•ÈLğ  	š   0ñÅLô  š   X •L÷  š     •Lú  š   "•Lş  š   "•Lÿ  š   ! •L  š   Y •L  š    ñÅL  "š   ¡ñÅL  $š   1ñÅL  'š   °F”L  *š   ±F”L  .š   `óÄL  1š   X •L  3š     •L  8š   "•L!  9š   "•L"  =š   ! •L$  >š   Y •L'  Bš   aóÄL+  Eš   ù•ÈL,  Gš   ©'ÊL0  Jš   —ÈL3  Mš   p”ÈL6  Oš   8”ÈL8  Rš   ˜ÈL=  Vš   ™ÈL?  Yš   9”ÈLB  [š   q”ÈLD  ^š   —ÈLG  `š   !(ÊLI  cš   !,ÊLL  eš   ğÈLN  hš   x›ÈLQ  kš   @™ÈLT  mš   A™ÈLY  tš   y›ÈL]  wš   ñÈL`  yš   €Z•Lb  |š   X•Le  š   0U•Lh  š   1U•Lj  „š   X•Lm  †š   Z•Lo  ‰š    -ÊLr  š   ¨)ÊLv  š   ©)ÊL{  •š   -ÊL~  —š   €Z•L€  šš   X•L…  š   0U•L†  ¡š   1U•LŠ  ¤š   X•L‹  ¦š   Z•L  §š   (xÄL’  «š   ¸wÄL•  ®š   ¹wÄL™  ±š   )xÄLš  µš   XğÉL  ¶š   YğÉL¡  ºš   øÉL¤  ½š   ,ÉL¨  Âš   °ÉL«  Äš   ±ÉL¼  Öš   ‘,ÉLÁ  Ûš   	øÉLÂ  İš   (®ÈLË  ãš   !—LÎ  èš   !—LÑ  ìš   )®ÈLÕ  ïš   `•LØ  ñš   a•LÛ  öš   (xÄLß  ùš   ¸wÄLâ  ûš   ¹wÄLä  şš   )xÄLç   ›   Ğ0ÊLì  ›   Ñ0ÊLï  ›   @¯ÈLñ  ›   ˜®ÈLô  ›   @ÀÈLù  ›   AÀÈLû  ›   PÈLş  ›   `ÆL  ›   aÆL  ›   (ùÇL  #›   pœL  &›   °œL  )›   ÀT L  -›   ÁT L  3›   ±œL  7›   ğœL   :›    „˜L#  =›   !„˜L-  G›   ¸œL0  K›   °ƒŸL4  N›   €X L7  Q›   X L:  U›   ±ƒŸL?  Z›   ¹œLC  [›   ñœLD  _›   qœLH  `›   )ùÇLI  d›   QÈLK  e›   ™®ÈLN  g›   A¯ÈLP  j›   (xÄLU  o›   ¸wÄLX  s›   ¹wÄLZ  t›   )xÄL]  x›   ¹ŸÈL_  y›   é£ÈLb  }›   a¸ÈLf  ~›   ½ÈLi  ‚›    ¬Ll  ‡›   ¬Lp  Š›   ¨ğ«Lu  ›   à™Lx  ’›   á™L{  –›   à™L  —›   á™L€  ››    —™L…  ›    ™L‰  ¡›   ™L£  ¾›   !—™L§  Á›   Ğ[ÅL¬  Æ›   Ñ[ÅL¯  È›   hš™L²  Ë›   ¨™L´  Î›   ©™LÍ  ç›   iš™LÏ  é›   P>™LÔ  î›   `•Lë  Kœ   °‡•Lõ  Tœ   0U•Lù  Wœ   1U•Lü  Zœ   ±‡•Lÿ  ^œ   a•L  _œ   `O—L  dœ   `•L	  hœ   a•L  iœ   ğ•L  nœ   ñ•L  rœ   aO—L  uœ   ¸•L  |œ   ¹•L!  œ   È©L$  ‚œ    ©L'  †œ   €2¢L+  ‡œ   Èø”L.  ‹œ   ø£L0  œ   ù£L3  ‘œ   °¤L8  –œ   (¤L;  šœ   `¤L?  œ   Põ”LB   œ   è÷”LE  ¢œ   P•LG  ¥œ   Q•LJ  ©œ   é÷”LN  ¬œ   Qõ”LQ  ®œ   a¤LT  ±œ   )¤LV  ´œ   ±¤LY  ¸œ   Éø”L[  ¹œ   x •L^  ½œ   è •Lb  Àœ   é •Le  Âœ   y •Lg  Åœ   2¢Lj  Èœ    ¤Lm  Êœ   ¡¤Lq  Ïœ   hÂLt  Òœ   iÂL”  òœ   ©L—  õœ   É©Lš  ÷œ   Ñ•Lœ  úœ   Ğ•L¼     `•LÁ     °‡•LÆ  $   0U•LÇ  &   1U•LË  )   ±‡•LÎ  ,   a•LĞ  .   `O—LÓ  1   `•LÖ  5   a•LÚ  6   ğ•Lİ  ;   ñ•Là  =   aO—Lâ  @   ¸•Lç  E   ¹•Lê  I   È©Lî  J    ©Lñ  N   €2¢Ló  Q   Èø”Lö  T   ø£Lù  V   ù£Lû  Y   °¤L   ^   (¤L  `   `¤L  c   Põ”L  g   è÷”L  h   P•L  l   Q•L  o   é÷”L  r   Qõ”L  t   a¤L  w   )¤L  y   ±¤L  |   Éø”L!  ~   x •L#     è •L&  …   é •L*  ˆ   y •L+  Š   2¢L/      ¤L2     ¡¤L4  ’   hÂL7  •   iÂLH  ¦   ©LK  ©   É©LM  «   Ñ•LP  ®   Ğ•Lb  Á   `•Lf  Ä   °‡•Lk  É   0U•Ln  Ë   1U•Lp  Î   ±‡•Ls  Ñ   a•Lv  Ó   `O—Lx  Ö   `•L{  Ú   a•L  Û   ğ•L‚  à   ñ•L…  â   aO—L‡  å   ¸•LŒ  ê   ¹•L  î   È©L“  ï    ©L”  ó   €2¢L˜  ö   Èø”L›  ù   ø£L  û   ù£L   ş   °¤L£     (¤L§     `¤Lª     Põ”L¬  
+   è÷”L¯     P•L²     Q•L¶     é÷”L·     Qõ”L»     a¤L¾     )¤LÀ     ±¤LÃ      Éø”LÅ  #   x •LÈ  &   è •LË  (   é •LÍ  +   y •LĞ  /   2¢LÒ  0    ¤LÕ  4   ¡¤LÙ  7   hÂLÜ  9   iÂLé  H   ©Lí  K   É©Lî  M   Ñ•Lò  P   Ğ•L  _   `•L  d   °‡•L	  g   0U•L  k   1U•L  l   ±‡•L  p   a•L  s   `O—L  u   `•L  x   a•L  {   ğ•L      ñ•L$  ‚   aO—L'  „   ¸•L*  ‰   ¹•L.  Œ   È©L1      ©L4  “   €2¢L6  ”   Èø”L9  ˜   ø£L=  ›   ù£L>     °¤LC  ¢   (¤LG  ¥   `¤LH  §   Põ”LL  ª   è÷”LO  ¬   P•LQ  ¯   Q•LT  ²   é÷”LW  ¶   Qõ”LY  ·   a¤L\  »   )¤L`  ¾   ±¤La  À   Éø”Le  Ã   x •Lh  Æ   è •Lj  È   é •Lm  Ë   y •Lp  Í   2¢Lr  Ğ    ¤Lu  Ô   ¡¤Ly  Õ   hÂLz  Ù   iÂLˆ  æ   ©L‹  é   É©L  ë   Ñ•L  î   Ğ•LŸ  ı   `•L¢  Ÿ   °‡•L§  Ÿ   0U•L«  Ÿ   1U•L¬  Ÿ   ±‡•L°  Ÿ   a•L³  Ÿ   `O—Lµ  Ÿ   `•L¸  Ÿ   a•L»  Ÿ   ğ•L¿  Ÿ   ñ•LÀ  Ÿ   aO—LÄ  "Ÿ   ¸•LÉ  'Ÿ   ¹•LÊ  )Ÿ   È©LÎ  ,Ÿ    ©LÑ  /Ÿ   €2¢LÓ  1Ÿ   Èø”LÖ  4Ÿ   ø£LÙ  8Ÿ   ù£Lİ  9Ÿ   °¤Là  >Ÿ   (¤Lã  BŸ   `¤Lç  CŸ   Põ”Lè  D´   qf”L÷  ¼    Hk•Lş  Ã    Ik•L  È    x1£L  Ë    y1£L
+  Î    y•L  Ò    Hy•L  Õ    Iy•L  Ø    y•L  Ú    Hk•L+  ğ    Ik•L.  ó    x1£L2  ö    y1£L3  ø    y•L7  û    Hy•L:  ÿ    Iy•L<   ¡   y•L?  ¡   Hk•LB  ¡   Ik•LD  	¡   x1£LG  ¡   y1£LK  ¡   y•LL  ¡   Hy•LP  ¡   Iy•LS  ¡   y•LU  ¡   A1£LX  ¡   ùn”L[   ¡   pf”Lb  %¡   qf”Le  *¡   pf”Li  -¡   qf”Lj  /¡   pf”Ln  2¡   qf”Lq  6¡   pf”Lt  7¡   qf”Lv  ;¡   pf”Ly  >¡   qf”L}  A¡   pf”L€  C¡   qf”L‚  F¡   pf”L…  J¡   qf”Lˆ  M¡   pf”LŒ  O¡   qf”L  R¡   pf”L‘  U¡   qf”L”  Y¡   pf”L—  Z¡   qf”L™  ^¡   pf”Lœ  a¡   qf”L   d¡   ñÏ¨L£  h¡   8PŸL¦  k¡   9PŸL¯  s¡   øQŸL´  w¡   ¨ÂL¼  ¡   pÂL¿  „¡   qÂLÃ  ‡¡   ©ÂLÆ  ‹¡   ùQŸLÉ  ¡    KŸLÍ  ‘¡   ¡KŸLĞ  “¡   ©IŸLÒ  –¡   XOŸL×  ›¡   YOŸLÜ  Ÿ¡   OŸLâ  §¡   ‘OŸLú  ¾¡   ØRŸLÿ  Ã¡   0KŸL  Ç¡    OŸL  Ê¡   !OŸL  á¡    RŸL   å¡   ¡RŸL#  è¡   1KŸL'  ë¡   ÙRŸL(  í¡   h˜ÂL-  ğ¡   Ø–ÂL1  õ¡   —ÂL4  ù¡   —ÂL7  ü¡   ÈV–L<  ÿ¡   ÉV–L@  ¢   Ù–ÂLC  ¢   i˜ÂLF  ¢   ©YŸLJ  ¢   ¢ÂLM  ¢   ø”ÂLR  ¢   ¸E¤LW  ¢   E¤LZ  ¢   8.•L_  "¢   9.•La  &¢   E¤Ld  )¢   `1”Lh  ,¢   a1”Lk  0¢   ø"•Lp  5¢   ù"•Ls  8¢   ¸0”Lw  ;¢   ¹0”Lx  =¢   ¹E¤L}  @¢   8YŸL  E¢   9YŸL„  G¢   ¨‘ÂL‡  J¢   ©‘ÂL‹  N¢   0“ÂL  S¢   1“ÂL‘  V¢   ù”ÂL•  X¢   	¢ÂL–  [¢   ¦ÂLš  ^¢   I©L  b¢   i©L   e¢   ¸DŸL¥  j¢   ¹DŸL©  m¢   ‘ê¨L¬  o¢   ˜Ğ¨L¯  t¢   À©L³  w¢   Á©L¶  {¢   ˆ©L¹  |¢   ØCŸL½  €¢   ÙCŸLÀ  ƒ¢   (©LÃ  †¢   î¨LÇ  Š¢   ğl™LÊ  ¢   Èu”LÍ  ’¢   Ø‹”LÑ  •¢   Ù‹”LÔ  ™¢   Éu”L×  š¢   n™LÙ  ¢   	n™LÜ  ¡¢   p†£Là  ¤¢   q†£Lã  ¨¢   ¨†£Læ  «¢   ©†£Lê  ®¢   ñl™Lí  ²¢   î¨Lğ  ³¢   )©Lò  ·¢   `©Lõ  º¢   a©Lù  ½¢   H©Lü  ¿¢   I©Lş  Â¢   ¸©L  Æ¢   Øí¨L  É¢   ˜æ¨L  Ì¢   À L  Ğ¢   ğl™L  Õ¢   Èu”L  Ö¢   Ø‹”L  Ú¢   Ù‹”L  İ¢   Éu”L  ß¢   n™L  â¢   	n™L!  ä¢   p†£L"  ç¢   q†£L&  ê¢   ¨†£L)  ì¢   ©†£L+  ï¢   8ˆ£L.  ó¢   xl™L1  ö¢   yl™L5  ù¢   ˆ‡£L8  ı¢   ‰‡£L;   £   °l™L?  £   ±l™L@  £   9ˆ£LD  £   ñl™LG  £   Á LJ  £   P LL  £   Q LQ  £   ™æ¨LS  £   Ùí¨LV  £   ¹©LY  £   è¤ÂL]  !£   `¡ÂL`  %£   ğÏ¨Lc  (£   0o”Lg  +£   1o”Lj  /£   `j”Lm  0£   aj”Lo  4£   ¨m”Lr  7£   ĞZ”Ly  >£   ÑZ”L|  A£   ©m”L€  C£   øn”Lƒ  H£   @1£L†  K£    9œLŠ  N£   9œL  R£   pf”L  S£   qf”L”  W£   pf”L•  Z£   qf”L™  ]£   pf”Lœ  a£   qf”LŸ  b£   Hk•L¡  f£   Ik•L¤  i£   x1£L¨  l£   y1£L©  n£   y•L­  q£   Hy•L°  u£   Iy•L³  v£   y•Lµ  z£   Hk•L¸  }£   Ik•L¼  €£   x1£L½  ‚£   y1£LÁ  …£   y•LÄ  ‰£   Hy•LÆ  Š£   Iy•LÉ  £   y•LÌ  £   Hk•LÎ  “£   Ik•LÑ  –£   x1£LÕ  ™£   y1£LÖ  ›£   y•LÚ  £   Hy•Lİ  ¢£   Iy•Lß  ££   y•Lâ  §£   A1£Lå  ¨£   ùn”Lç  ¬£   pf”Lê  ¯£   qf”Lî  ±£   pf”Lï  ´£   qf”Ló  ·£   pf”Lö  ¹£   qf”Lø  ¼£   pf”Lû  À£   qf”Lı  Á£   pf”L   Å£   qf”L  Æ£   pf”L  Ê£   qf”L  Í£   pf”L  Ï£   qf”L  Ò£   pf”L  Õ£   qf”L  ×£   pf”L  Ú£   qf”L  Ş£   pf”L  ß£   qf”L  ã£   pf”L!  ä£   qf”L#  è£   ñÏ¨L&  ë£   a¡ÂL*  î£   ¸ ÂL-  ò£   p“ÂL0  õ£   ø’ÂL4  ø£   P’ÂL9  ı£   Q’ÂL<  ¤   ˆ’ÂL?  ¤   !—LC  ¤   !—LD  	¤   (F¤LI  ¤   E¤LK  ¤   8.•LN  ¤   9.•LR  ¤   E¤LS  ¤   )F¤LW  ¤   ‰’ÂLZ  ¤   À’ÂL]  "¤   xÂLa  %¤   ZŸLd  )¤   ZŸLg  ,¤   HE¤Lk  /¤   E¤Ll  1¤   8.•Lp  4¤   9.•Ls  8¤   E¤Lu  9¤   `1”Lx  =¤   a1”L{  @¤   øG¤L€  E¤   `e—L„  H¤   "•L‡  L¤   "•LŠ  O¤   ae—L  R¤   `1”L‘  V¤   a1”L“  W¤   ùG¤L–  [¤   IE¤L™  ^¤   yÂL  a¤   Á’ÂL  c¤   ù’ÂL¢  f¤   q“ÂL¥  h¤   ¹ ÂL§  k¤    XŸLª  o¤   À—ÂL¯  t¤   ¸šÂL¶  z¤   €šÂL¹  ~¤   šÂL¼  ¤   ¹šÂL¾  ƒ¤   ÈV–LÃ  †¤   ÉV–LÆ  ‹¤   €—ÂLÊ  ¤   —ÂLÍ  ’¤   Á—ÂLĞ  “¤   ¨IŸLÒ  —¤   ˆÙ°L×  œ¤   €F—LÚ  Ÿ¤   øg”Lß  ¢¤   ùg”Lá  ¦¤   F—Læ  «¤   pØ°Lé  ®¤   qØ°Lí  °¤   ‰Ù°Lî  ³¤   ¨PŸLò  ¶¤   ©PŸLY  ¥    PŸL`  $¥   PŸLe  (¥   ğÏ¨Lf  +¥   0o”Lj  .¥   1o”Lo  2¥   `j”Lp  5¥   aj”Lt  8¥   ¨m”Lw  <¥   ĞZ”L~  B¥   ÑZ”L  D¥   ©m”Lƒ  G¥   øn”L†  K¥   @1£L‰  N¥    9œL  Q¥   9œL  S¥   pf”L’  V¥   qf”L•  Z¥   pf”L˜  ]¥   qf”Lœ  _¥   pf”L  b¥   qf”L¡  e¥   Hk•L¤  i¥   Ik•L¦  j¥   x1£L©  n¥   y1£L¬  q¥   y•L°  s¥   Hy•L±  v¥   Iy•Lµ  y¥   y•L¸  {¥   Hk•L»  ~¥   Ik•L½  ‚¥   x1£LÀ  …¥   y1£LÂ  ‡¥   y•LÅ  Š¥   Hy•LÉ  ¥   Iy•LÊ  ¥   y•LÎ  ’¥   Hk•LÑ  –¥   Ik•LÓ  —¥   x1£LÖ  ›¥   y1£LÙ  œ¥   y•LÛ   ¥   Hy•LŞ  £¥   Iy•Lâ  ¥¥   y•Lã  ¨¥   A1£Lç  «¥   ùn”Lê  ­¥   pf”Lì  °¥   qf”Lï  ´¥   pf”Lò  µ¥   qf”Lô  ¹¥   pf”L÷  ¼¥   qf”Lû  ¾¥   pf”Lü  Á¥   qf”L   Ä¥   pf”L  Æ¥   qf”L  É¥   pf”L  Í¥   qf”L
+  Î¥   pf”L  Ò¥   qf”L  Õ¥   pf”L  ×¥   qf”L  Ú¥   pf”L  İ¥   qf”L  ß¥   pf”L  â¥   qf”L!  æ¥   pf”L#  ç¥   qf”L&  ë¥   ñÏ¨L)  ì¥   8PŸL-  ğ¥   9PŸL0  õ¥   øQŸL3  ö¥   ùQŸL7  ú¥    KŸL8  ı¥   ¡KŸL<   ¦   ©IŸL?  ¦   UŸLB  ¦   	UŸLF  	¦   PJŸLG  ¦   QJŸLK  ¦   àIŸLN  ¦   `‹ÂLQ  ¦   ¨f”LV  ¦   ©f”LZ  ¦   a‹ÂL[   ¦   £L_  #¦   ğl™Ld  '¦   Èu”Le  *¦   Ø‹”Li  -¦   Ù‹”Ll  1¦   Éu”Ln  2¦   n™Lq  6¦   	n™Lt  9¦   p†£Lx  ;¦   q†£Ly  >¦   ¨†£L}  A¦   ©†£L€  C¦   ñl™Lƒ  F¦   £L‡  K¦   x‚£LŒ  P¦   y‚£L  T¦   áIŸL’  U¦   JŸL”  Y¦   JŸL—  \¦   °NŸL›  _¦   ±NŸL‰  O§   ÀJŸL  T§   ÁJŸL“  X§   ØRŸL–  [§   0KŸLš  ^§    OŸL  b§   !OŸLÃ  ˆ§    RŸLÇ  ‹§   ¡RŸLÌ  §   1KŸLÍ  ’§   ÙRŸLÑ  •§   h˜ÂLÔ  ™§   Ø–ÂL×  œ§   —ÂLÛ  Ÿ§   —ÂLŞ  £§   ÈV–Lá  ¦§   ÉV–Lå  ©§   Ù–ÂLè  ­§   i˜ÂLë  °§   !XŸLï  ³§   ¢ÂLò  ·§   ø”ÂLõ  º§   ¸E¤Lù  ½§   E¤Lü  Á§   8.•Lÿ  Ä§   9.•L  Ç§   E¤L  É§   `1”L  Ì§   a1”L  Ğ§   ø"•L  Ó§   ù"•L  Ö§   ¸0”L  Ø§   ¹0”L  Û§   ¹E¤L  ß§   8YŸL  ä§   9YŸL!  å§   ¨‘ÂL$  é§   ©‘ÂL'  ì§   0“ÂL+  ï§   1“ÂL.  ó§   ù”ÂL1  ô§   	¢ÂL3  ø§   é¤ÂL6  û§   ¸DŸL:  ş§   ¹DŸL=  ¨   ‰©L@  ¨   ™Ğ¨LB  ¨   DŸLE  
+¨   ¸DŸLI  ¨   Ğ©LL  ¨   ©LO  ¨   ©LS  ¨   Ñ©LT  ¨   ¹DŸLX  ¨   DŸLY  ¨   aĞ¨L]  !¨    —•L`  %¨   !—•Le  *¨   X™•Lj  -¨   Y™•Ll  0¨   Iî¨Lo  4¨   ½ÆLt  9¨   ˆ ©Lw  <¨   ‰ ©L{  ?¨   ½ÆL|  A¨   xğ¨L€  D¨   Ğæ¨Lƒ  H¨   Ñæ¨L†  K¨   yğ¨LŠ  N¨   Áş¨L  R¨   ©ÿ¨L  U¨   È˜Lš  _¨    ˜LŸ  d¨   ˜L¦  k¨   É˜L©  n¨   ˆ˜L­  q¨    ˜L°  u¨   `j”L³  x¨   aj”L·  {¨   ˜c”L¼  €¨    V–L¿  „¨   !V–LÄ  ‰¨   ™c”LÇ  Œ¨   ˜LË  ¨   ‰˜LÌ  ‘¨   p˜LĞ  ”¨   €ä¬LÓ  ˜¨   `å¬LÖ  ›¨    ˜LÛ   ¨   `j”Lİ  ¢¨   aj”Là  ¥¨   ˜c”Lä  ¨¨    V–Lç  ª¨   !V–Lê  ¯¨   ™c”Lì  ±¨   ˜Lï  ´¨   aå¬Ló  ¶¨   ä¬Lô  ¹¨   q˜Lø  ¼¨   H˜Lû  ¾¨   p#˜Lş  Á¨   ĞZ”L  È¨   ÑZ”L  Ê¨   q#˜L  Í¨   I˜L  Ğ¨   8ò¨L  Ô¨   pò¨L  ×¨   ó¨L  Ú¨   ØCŸL  Ş¨   ÙCŸL  á¨   À	©L   ä¨   Ø «L#  è¨   Ù «L&  ë¨   Ø «L*  î¨   Ù «L-  ò¨   Ø «L0  ó¨   `j”L4  ø¨   aj”L7  ü¨   Ù «L:  ı¨   ¸v–L>  ©   p3•LC  ©   X •LK  ©     •LP  ©   "•LS  ©   "•LW  ©   ! •LX  ©   Y •L]  "©   ˆ=•La  %©    5•Lf  *©   ¡5•L„  H©   `9•L‡  L©   À4•LŠ  O©   Á4•L‘  T©   a9•L“  W©   ‰=•L™  ^©   p<•L  `©   `j”L   e©   aj”L¢  f©   H6•L¥  j©   `j”L¨  m©   aj”L¬  p©   `j”L¯  t©   aj”L±  u©   ˆn”L´  y©   ‰n”L·  |©   €6•L»  ©   ¸6•L¾  ƒ©   ¹6•LÏ  “©   ğ6•LÒ  —©   ñ6•L×  œ©   (7•LÚ  Ÿ©   )7•LŞ  ¢©   6•Lß  ¤©   I6•Lã  §©   q<•Læ  «©   q3•Lè  ¬©   ¹v–Lë  °©   x:•Lî  ³©   h5•Lò  ¶©   i5•L  İ©   y:•L  â©    ˜L"  ç©   8˜L%  ê©   9˜L/  ô©   ˜L3  ÷©   ˆ˜L6  û©    ˜L8  ü©   `j”L;   ª   aj”L>  ª   ˜c”LB  ª    V–LE  
+ª   !V–LH  ª   ™c”LL  ª   ˜LM  ª   ‰˜LQ  ª   ˆ	©LT  ª   ˆ˜LW  ª    ˜L[  ª   `j”L^  !ª   aj”L`  $ª   ˜c”Lc  (ª    V–Lf  +ª   !V–Lj  .ª   ™c”Lk  0ª   ˜Lo  3ª   ‰˜Lp  5ª   ˆ˜Lt  8ª    ˜Lw  <ª   `j”Lz  ?ª   aj”L|  Aª   ˜c”L  Dª    V–Lƒ  Gª   !V–L†  Kª   ™c”L‰  Lª   ˜L‹  Pª   ‰˜L  Sª   ˆ˜L’  Uª    ˜L“  Xª   `j”L—  [ª   aj”L˜  ]ª   ˜c”Lœ  `ª    V–LŸ  dª   !V–L¢  gª   ™c”L¦  jª   ˜L§  lª   ‰˜L«  oª   È˜L®  sª   ˜L±  vª   ‘˜Lµ  yª   É˜L¸  {ª   ‰	©Lº  ~ª   ˆ˜L½  ‚ª    ˜LÀ  ƒª   `j”LÂ  ‡ª   aj”LÅ  Šª   ˜c”LÉ  Œª    V–LÊ  ª   !V–LÎ  ’ª   ™c”LÑ  –ª   ˜LÔ  —ª   ‰˜LÖ  ›ª   ˆ˜LÙ  ª    ˜LÛ   ª   `j”LŞ  £ª   aj”Lâ  ¦ª   ˜c”Lå  ¨ª    V–Lç  «ª   !V–Lê  ¯ª   ™c”Lí  ²ª   ˜Lñ  ´ª   ‰˜Lò  ·ª   P	©Lö  ºª   Ø «Lù  ¾ª   Ù «Lü  ¿ª   Q	©Lş  Ãª   P	©L  Æª   Ø «L  Èª   Ù «L  Ëª   Q	©L
+  Îª   P	©L  Ğª   Ø «L  Óª   Ù «L  ×ª   Q	©L  Øª   P	©L  Üª   Ø «L  ßª   `j”L  âª   aj”L!  æª   Ù «L$  éª   ˆ˜L(  ëª    ˜L)  îª   `j”L-  ñª   aj”L.  óª   ˜c”L2  öª    V–L5  úª   !V–L8  ıª   ™c”L<  ÿª   ˜L=  «   ‰˜LA  «   ˆ˜LD  «    ˜LF  
+«   `j”LI  «   aj”LK  «   ˜c”LN  «    V–LQ  «   !V–LU  «   ™c”LV  «   ˜LZ  «   ‰˜L]  "«   Q	©L_  #«   P	©Lb  '«   Ø «Le  («   `j”Li  ,«   aj”Lj  /«   Ù «Ln  2«   ˆ˜Lo  4«    ˜Ls  7«   `j”Lv  ;«   aj”Lx  <«   ˜c”L{  @«    V–L~  C«   !V–L‚  F«   ™c”L…  H«   ˜L‡  K«   ‰˜LŠ  O«   ˆ˜LŒ  P«    ˜L  T«   `j”L’  U«   aj”L”  Y«   ˜c”L—  \«    V–L›  _«   !V–L  a«   ™c”L   d«   ˜L£  h«   ‰˜L¥  i«   Q	©L¨  m«   H˜L«  n«   p#˜L­  r«   ˆ^”L´  x«    V–Lº  }«   !V–L¾  ‚«   ‰^”L¿  „«   q#˜LÃ  ‡«   I˜LÆ  ‰«   Á	©LÈ  Œ«   ğå¨LË  «   Ø «LÎ  “«   `j”LÒ  –«   aj”LÕ  ˜«   Ù «L×  ›«   0h”LÚ  Ÿ«    _”Lî  ³«   ¡_”Ló  ¶«   1h”Lõ  ¹«   0h”Lø  ½«    _”Lû  ¾«   ¡_”Lı  Â«   1h”L   Å«   ñå¨L  Ç«   øó¨L  Ê«   ØCŸL	  Í«   ÙCŸL  Ñ«   hû¨L  Ö«   iû¨L  Ù«   Pü¨L  Ş«    ©L  ã«   H©L"  æ«   ˜CŸL%  ê«   ™CŸL(  í«   0o”L,  ï«   1o”L/  ò«   ğÏ¨L1  õ«   0o”L4  ù«   1o”L7  ü«   `j”L;  ş«   aj”L<  ¬   ¨m”L@  ¬   ĞZ”LE  	¬   ÑZ”LH  ¬   ©m”LJ  ¬   øn”LM  ¬   @1£LP  ¬    9œLT  ¬   9œLW  ¬   pf”LZ  ¬   qf”L^  "¬   pf”La  $¬   qf”Lc  '¬   pf”Lf  +¬   qf”Li  ,¬   Hk•Lm  1¬   Ik•Lp  3¬   x1£Lr  6¬   y1£Lu  :¬   y•Lx  =¬   Hy•L|  @¬   Iy•L}  B¬   y•L  E¬   Hk•L„  I¬   Ik•L‡  J¬   x1£L‰  N¬   y1£LŒ  Q¬   y•L  S¬   Hy•L‘  V¬   Iy•L•  Y¬   y•L˜  [¬   Hk•Lš  ^¬   Ik•L  b¬   x1£L   c¬   y1£L¢  g¬   y•L¥  j¬   Hy•L©  l¬   Iy•Lª  o¬   y•L®  r¬   A1£L±  t¬   ùn”L³  w¬   pf”L¶  {¬   qf”L¹  |¬   ñÏ¨L»  €¬   XŸÂLÂ  †¬   YŸÂLÃ  ˆ¬   î¨LÇ  ‹¬   ğl™LÊ  ¬   Èu”LÍ  ’¬   Ø‹”LÑ  •¬   Ù‹”LÔ  ™¬   Éu”LÖ  š¬   n™LÙ  ¬   	n™LÜ  ¡¬   p†£Là  ¤¬   q†£Lã  ¦¬   ¨†£Lå  ©¬   ©†£Lè  ­¬   ñl™Lë  ®¬   î¨Lí  ²¬   Øí¨Lğ  µ¬   ˜æ¨Lô  ¸¬   À L÷  ¼¬   ğl™Lú  ¿¬   Èu”Lş  Â¬   Ø‹”Lÿ  Ä¬   Ù‹”L  Ç¬   Éu”L  É¬   n™L  Ì¬   	n™L  Ğ¬   p†£L  Ñ¬   q†£L  Õ¬   ¨†£L  Ø¬   ©†£L  Ú¬   8ˆ£L  İ¬   xl™L  à¬   yl™L  ä¬   ˆ‡£L"  ç¬   ‰‡£L&  ê¬   °l™L)  ì¬   ±l™L+  ï¬   9ˆ£L.  ó¬   ñl™L0  ô¬   Á L3  ø¬   P L6  û¬   Q L:  ş¬   ™æ¨L=  ­   Ùí¨L@  ­    ¦ÂLB  ­   ¸ ÂLE  
+­   p“ÂLJ  ­   ø’ÂLN  ­   P’ÂLQ  ­   Q’ÂLT  ­   ˆ’ÂLV  ­   !—LY  ­   !—L]  !­   (F¤L`  %­   E¤Lc  (­   8.•Lg  +­   9.•Lh  -­   E¤Ll  0­   )F¤Lo  4­   ‰’ÂLq  5­   À’ÂLt  9­   xÂLw  <­   ZŸL{  ?­   ZŸL~  C­   HE¤L  F­   E¤L…  H­   8.•L†  K­   9.•LŠ  N­   E¤L  P­   `1”L  S­   a1”L’  W­   øG¤L™  ]­   `e—Lœ  a­   "•LŸ  b­   "•L¡  f­   ae—L¤  i­   `1”L¨  l­   a1”L©  n­   ùG¤L­  q­   IE¤L°  u­   yÂL³  x­   Á’ÂLµ  z­   ù’ÂL¸  }­   q“ÂL¼  €­   ¹ ÂL¿  ‚­   ¨YŸLÁ  …­   À—ÂLÄ  ‰­   ¸šÂLË  ­   €šÂLÎ  “­   šÂLÑ  ”­   ¹šÂLÓ  ˜­   ÈV–LÖ  ›­   ÉV–LÚ  ­   €—ÂLİ  ¢­   —ÂLà  ¥­   Á—ÂLä  ¨­   ¨IŸLç  ª­   ˆÙ°Lê  ¯­   €F—Lî  ²­   øg”Lñ  ¶­   ùg”Lı  Á­   F—L   Å­   pØ°L  È­   qØ°L  Ë­   ‰Ù°L
+  Í­   ¨PŸL  Ğ­   ©PŸLí  ³®    PŸLó  ¸®   PŸLø  ½®   ğÏ¨Lü  À®   0o”Lÿ  Ä®   1o”L  É®   `j”L  Ì®   aj”L  Î®   ¨m”L  Ñ®   ĞZ”L  Ù®   ÑZ”L  İ®   ©m”L  à®   øn”L  ã®   @1£L"  ç®    9œL%  ê®   9œL)  ì®   pf”L*  ï®   qf”L.  ò®   pf”L1  ö®   qf”L3  ÷®   pf”L6  û®   qf”L9  ş®   Hk•L=  ¯   Ik•L@  ¯   x1£LC  ¯   y1£LE  
+¯   y•LH  ¯   Hy•LL  ¯   Iy•LM  ¯   y•LQ  ¯   Hk•LT  ¯   Ik•LW  ¯   x1£LY  ¯   y1£L\  !¯   y•L`  #¯   Hy•La  &¯   Iy•Le  )¯   y•Lf  +¯   Hk•Lj  .¯   Ik•Lm  2¯   x1£Lp  3¯   y1£Lr  7¯   y•Lu  :¯   Hy•Ly  <¯   Iy•Lz  ?¯   y•L~  B¯   A1£L  D¯   ùn”Lƒ  G¯   pf”L†  K¯   qf”L‰  N¯   ñÏ¨L‹  P¯   8PŸL  S¯   9PŸL“  X¯   øQŸL—  Z¯   ùQŸLš  _¯    KŸL  `¯   ¡KŸLŸ  d¯   hÚ°L¢  g¯   ø×°L§  j¯   €Û°L«  n¯   Û°L¬  q¯   ù×°L°  t¯   XQ—L³  x¯   øg”L¶  {¯   ùg”Lº  ~¯   ğL—L½  ‚¯   ñL—LÀ  ƒ¯   0E—LÄ  ˆ¯   H—LÉ  Œ¯   	H—LÊ  ¯   Pf—LÑ  –¯   p\—LÔ  ™¯   q\—LØ  œ¯   Qf—LÙ  ¯   1E—LŞ  £¯   YQ—Lâ  ¦¯   0Ø°Lå  ª¯   ĞO—Lè  ­¯   ÑO—Lì  °¯   1Ø°Lï  ´¯   iÚ°Lñ  µ¯   ©IŸLô  ¹¯   XOŸL÷  ¼¯   YOŸLü  ¿¯   OŸL  Æ¯   ‘OŸL  Ó¯   OŸL  Ø¯   ‘OŸL  á¯   ØRŸL  ä¯   ˆQŸL#  ç¯   ‰QŸL+  ğ¯   ÙRŸL.  ñ¯   h˜ÂL0  õ¯   Ø–ÂL3  ø¯   —ÂL7  û¯   —ÂL:  ÿ¯   ÈV–L=   °   ÉV–LA  °   Ù–ÂLD  °   i˜ÂLF  
+°   ©YŸLI  °   ¢ÂLL  °   ø”ÂLP  °   ¸E¤LS  °   E¤LV  °   8.•LX  °   9.•L[   °   E¤L_  #°   `1”Lb  '°   a1”Ld  (°   ø"•Li  -°   ù"•Lj  /°   ¸0”Ln  2°   ¹0”Lq  6°   ¹E¤Lt  9°   8YŸLx  <°   9YŸL{  >°   ¨‘ÂL}  A°   ©‘ÂL€  E°   0“ÂLƒ  H°   1“ÂL‡  K°   ù”ÂLŠ  O°   	¢ÂLŒ  P°   ¦ÂL  T°   I©L’  W°   ©L–  Z°   À©L™  \°   Á©L›  _°   pİ¨L¡  f°   ĞŸ¨L¥  i°    ¨L¨  m°   X •L¯  s°     •L´  x°   "•L·  |°   "•L¹  }°   ! •L¼  °   Y •L¿  „°   ÈÄ¨LÈ  Œ°   à´¨LË  °   `—LĞ  •°    "—LÓ  ˜°   ğ%—L×  ›°   ñ%—LÚ  °   !"—LÜ   °   a—Lß  ¤°   á´¨Lâ  ¥°   ÉÄ¨Lä  ©°   h³¨Lé  ®°   à´¨Lì  ±°   `—Lñ  ´°    "—Ló  ¸°   ğ%—Lö  »°   ñ%—Lú  ½°   !"—Lû  À°   a—Lÿ  Ã°   á´¨L  Å°   i³¨L  È°   8I—L	  Í°   °R—L  Ñ°   ±R—L  Ô°   9I—L  ×°   !¨L  Û°   ÑŸ¨L  Ü°   ˜S™L  à°   ™S™L   ã°   €©L#  è°   ©L'  ë°   ØÎ¨L*  í°   pf”L-  ğ°   qf”L/  ô°   pf”L2  ÷°   qf”L6  ú°   ÙÎ¨L7  ü°   qİ¨L;  ÿ°   Qü¨L>  ±   ¸DŸLA  ±   ¹DŸLE  ±   ùó¨LF  ±   ¸DŸLJ  ±   ¹DŸLM  ±   ó¨LP  ±   qò¨LR  ±   9ò¨LU  ±   @—¨L\  ±   x—¨L_  "±   8ß¨La  &±   àİ¨Ld  )±   pß¨Lh  ,±   ğ©Lk  0±   ñ©Ln  3±   qß¨Lr  6±   hí¨Lu  8±   ií¨Lx  ;±   H ¨L|  ?±   H6ŸL  D±   ˜CŸL‚  G±   X •L‡  J±     •L‹  O±   "•L  S±   "•L‘  V±   ! •L“  X±   Y •L–  [±   ™CŸLš  ^±   @{—L  b±   A{—L   e±   `j”L¤  h±   aj”L§  l±   ˜7ŸLª  o±   Q>™LG  „³   ˆ‹™LO  ‰³   ø‹™LT  ³   ™LW  ³   ğ}™L[  “³   ñ}™La  š³   ™Lc  ³   ù‹™Lf  ¡³   ‰‹™Lj  ¢³   ¨‘™Lm  ¦³    z™Lo  ©³   h|™Lr  ¬³   i|™L~  ¸³   z™L  »³   ©‘™L†  ¿³   ¨‘™L‰  Â³    z™L‹  Å³   h|™L  É³   i|™L—  Ï³   z™L˜  Ó³   ©‘™Lœ  Ö³   ©ğ«LŸ  Ø³   ±WÅL¡  Û³   éWÅL¤  Ş³   q˜ÉL§  â³   aœL«  å³   0™L®  è³   0™L³  í³   (Y L¸  ñ³   ÀV L»  ô³   ÁV L¿  ÷³   )Y LÄ  ş³   È„ŸLÉ  ´    ƒŸLÌ  ´   ƒŸLİ  ´    „˜Là  ´   !„˜Lê  $´   !—Lï  )´   !—Lò  +´   À0™Lö  .´   Á0™Lù  3´    ƒŸLü  7´   è÷”L  I´   P•L  L´   Q•L  Q´   é÷”L  U´   Qõ”L  V´   a¤L  [´   )¤L  _´   ±¤L  b´   Éø”L#  e´   x •L&  i´   è •L)  l´   é •L-  o´   y •L0  s´   2¢L2  t´    ¤L7  y´   ¡¤L:  }´   hÂL=  €´   iÂLg  «´   ©Ll  ¯´   É©Lo  ²´   Ñ•Ls  µ´   Ğ•L™  İ´   `•L   â´   °‡•L¦  é´   0U•Lª  ì´   1U•L­  ğ´   ±‡•L¯  ñ´   a•L²  õ´   `O—Lµ  ø´   `•L¹  û´   a•L¼  ÿ´   ğ•LÁ  µ   ñ•LÄ  µ   aO—LÈ  
+µ   ¸•LÎ  µ   ¹•LÒ  µ   È©LÓ  µ    ©L×  µ   €2¢LÚ  µ   Èø”Lİ   µ   ø£Lá  #µ   ù£Lä  'µ   °¤Lë  -µ   (¤Lì  /µ   `¤Lğ  2µ   Põ”Ló  6µ   è÷”Lö  9µ   P•Lø  ;µ   Q•Lû  >µ   é÷”Lÿ  Aµ   Qõ”L  Cµ   a¤L  Fµ   )¤L  Jµ   ±¤L
+  Kµ   Éø”L  Oµ   x •L  Rµ   è •L  Tµ   é •L  Wµ   y •L  Zµ   2¢L  \µ    ¤L  _µ   ¡¤L   cµ   hÂL#  dµ   iÂL7  zµ   ©L;  }µ   É©L>  µ   Ñ•LA  ‚µ   Ğ•LT  –µ   `•LY  ›µ   °‡•L^   µ   0U•L_  ¢µ   1U•Lc  ¥µ   ±‡•Lf  ©µ   a•Lh  ªµ   `O—Lk  ®µ   `•Ln  ±µ   a•Lr  ³µ   ğ•Lu  ¸µ   ñ•Lx  ¹µ   aO—Lz  ½µ   ¸•L  Âµ   ¹•L‚  Åµ   È©L†  Çµ    ©L‡  Êµ   €2¢L‹  Íµ   Èø”L  Ñµ   ø£L  Òµ   ù£L“  Öµ   °¤L˜  Ûµ   (¤L›  Üµ   `¤L  àµ   Põ”L   ãµ   è÷”L¤  æµ   P•L¥  èµ   Q•L©  ëµ   é÷”L¬  ïµ   Qõ”L®  ğµ   a¤L±  ôµ   )¤L´  õµ   ±¤L¶  ùµ   Éø”L¹  üµ   x •L½  ÿµ   è •LÀ  ¶   é •LÂ  ¶   y •LÅ  ¶   2¢LÇ  	¶    ¤LÊ  ¶   ¡¤LÍ  ¶   hÂLÏ  ¶   iÂLŞ  !¶   ©Lá  $¶   É©Lå  '¶   Ñ•Læ  )¶   Ğ•L÷  :¶   `•Lú  =¶   °‡•Lÿ  @¶   0U•L  D¶   1U•L  G¶   ±‡•L  I¶   a•L	  L¶   `O—L  O¶   `•L  Q¶   a•L  T¶   ğ•L  X¶   ñ•L  [¶   aO—L  ^¶   ¸•L!  b¶   ¹•L"  e¶   È©L&  h¶    ©L)  l¶   €2¢L+  m¶   Èø”L.  q¶   ø£L1  t¶   ù£L5  w¶   °¤L8  {¶   (¤L;  |¶   `¤L=  €¶   Põ”L@  ƒ¶   è÷”LD  …¶   P•LE  ˆ¶   Q•LI  ‹¶   é÷”LL  ¶   Qõ”LN  ¶   a¤LQ  ”¶   )¤LT  •¶   ±¤LV  ™¶   Éø”LY  œ¶   x •L]  ¶   è •L^  ¡¶   é •Lb  ¤¶   y •Lc  ¦¶   2¢Lg  ©¶    ¤Lj  «¶   ¡¤Ll  ®¶   hÂLo  ²¶   iÂL|  ¿¶   ©L€  Â¶   É©Lƒ  Ä¶   Ñ•L…  Ç¶   Ğ•L•  Ø¶   `•L™  Û¶   °‡•L  à¶   0U•LŸ  â¶   1U•L£  å¶   ±‡•L¦  ç¶   a•L¨  ê¶   `O—L«  î¶   `•L®  ñ¶   a•L°  ó¶   ğ•Lµ  ø¶   ñ•L¸  û¶   aO—Lº  ı¶   ¸•LÁ  ·   ¹•LÂ  ·   Ø©LÆ  ·   ğ©LË  ·   €2¢LÌ  ·   Èø”LĞ  ·   ø£LÓ  ·   ù£LÖ  ·   °¤LÚ  ·   (¤Lİ   ·   `¤Lß  !·   Põ”Lâ  %·   è÷”Lå  &·   P•Lç  *·   Q•Lê  -·   é÷”Lî  0·   Qõ”Lï  2·   a¤Ló  5·   )¤Lö  7·   ±¤Lø  :·   Éø”Lû  >·   x •Lş  A·   è •L   C·   é •L  F·   y •L  H·   2¢L  K·   è¤L  N·   @²–L  R·   A²–L  W·   é¤L  Z·   è¤L  \·   @²–L  _·   A²–L   b·   é¤L#  f·   °wŸL&  i·   ˜*•L*  l·   Ğ*•L-  p·  

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_borde_login"
+    android:id="@+id/layoutPadre">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/titulo_menu"
+        android:drawableLeft="@drawable/logo"
+        android:id="@+id/textView9"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp" />
+
+    <View style="@style/Separador"
+        android:layout_below="@+id/textView9"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginRight="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="60dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grupo1"
+        android:layout_below="@+id/textView9"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonAgua"
+            android:background="@drawable/boton_agua"
+            style="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonIluminacion"
+            android:background="@drawable/boton_iluminacion"
+            style="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonSemaforo"
+            android:background="@drawable/boton_semaforo"
+            style="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grupo2"
+        android:layout_below="@+id/grupo1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonMalOlor"
+            android:background="@drawable/boton_mal_olor"
+            style="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonPoste"
+            android:background="@drawable/boton_poste"
+            style="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/botonViaPublica"
+            android:background="@drawable/boton_via_publica"
+            style="@style/Base.Widget.AppCompat.ActionButton.Overflow" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/grupo3"
+        android:layout_below="@+id/grupo2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textexpansor1"
+        android:layout_below="@+id/grupo3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HelloLiveSight</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">Hello LiveSight!</string>
+
+    <string name="label_button_stoplivesight">Stop LiveSight</string>
+    <string name="label_button_startlivesight">Start LiveSight</string>
+    <string name="label_button_addobject">Add Object</string>
+
+</resources>

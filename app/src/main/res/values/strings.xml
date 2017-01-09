@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">DialogaCity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login_city_wowzer">LoginCityWowzer</string>
+    <!-- Ventana Crear Comentario-->
+
+    <string name="crear_comentario">Crear Comentarios:</string>
+
+    <!-- Ventana Registro-->
+    <string name="title_activity_registro_city_wowser">Registro City Wowser</string>
+    <string name="registro_titulo_cabecera">DialogaCity</string>
+    <string name="registro_hint_nombre">Nombre</string>
+    <string name="registro_hint_apellido">Apellido</string>
+    <string name="registro_hint_email">E-Mail</string>
+    <string name="registro_hint_password">Password</string>
+    <string name="registro_hint_id_usuario">Login</string>
+    <string name="registro_sexo">Sexo</string>
+    <string name="registro_sexo_hombre">Hombre</string>
+    <string name="registro_sexo_mujer">Mujer</string>
+    <string name="registro_boton_cancelar">Cancelar</string>
+    <string name="registro_boton_ok">Registrar</string>
+    <string name="registro_estado_civil_1">Seleccione Estado Civil</string>
+    <string-array name="registro_estado_civil_2">
+        <item>Soltero</item>
+        <item>Casado</item>
+        <item>Viudo</item>
+        <item>Divorciado</item>
+    </string-array>
+    <!-- Ventana LOGIN -->
+    <string name="login_hint_email">E-Mail</string>
+    <string name="login_hint_password">Password</string>
+    <string name="login_boton_ok">Ingresar</string>
+    <string name="login_boton_registro">Registro</string>
+    <!-- Ventana Menu-->
+    <string name="titulo_menu">Seleccione Una Alerta</string>
+    <!-- Ventana Menu General-->
+    <string name="titulo_menu_general">Menu General</string>
+    <!-- Ventana Actividad Denuncia-->
+    <string name="title_activity_denuncias">Detalle Denuncia</string>
+
+    <!-- Ventana Credito-->
+    <string name="titulo_credito">Créditos y Agradecimientos</string>
+    <string name="credito">
+        <b><u>Concepto y Diseño Funcional</u></b>\n
+        Siujen Sankan León\n
+        Laurymar Judith Arciniegas Rivas\n
+        Yisheng León Espinoza\n\n
+
+
+        <b><u>Programadores</u></b>\n
+        Yisheng León Espinoza\n
+        Alexander Mogollon Escuela\n
+        Carlos Julio Rodriguez\n
+        \n
+
+        <b><u>Diseño Técnico</u></b>\n
+        Yisheng León Espinoza\n\n
+
+        <b><u>Diseños e Ilustraciones</u></b>\n
+        Melanie Ng\n\n
+
+        <b><u>Música</u></b>\n
+        Ana Maria Kovaj\n\n
+
+
+        <b><u>Manuales</u></b>\n
+        Laurymar Judith Arciniegas Rivas\n\n
+
+        Versión 0.9.0 \n
+        Copyright 2015 www.jayktec.com.ve
+
+    </string>
+
+    <!-- Ventana Agregar Alertas -->
+    <string name="hint_descripcion_agregar_alerta">Describa su Alerta</string>
+    <string name="btn_guardar_alerta">Guardar</string>
+    <string name="agregar_etiqueta_foto">Foto Tomada:</string>
+    <string name="agregar_etiqueta_resultado">No</string>
+    <string name="btn_foto_alerta">Foto</string>
+    <!-- Ventana Valorar Denuncia -->
+    <string name="valorar_cabecera">ALERTA</string>
+    <string name="valorar_etiq_id">ID ALERTA</string>
+    <string name="valorar_valor_id">001</string>
+    <string name="valorar_etiqueta_descripcion">Descripcion</string>
+    <string name="valorar_valor_descripcion">Detalle Descripcion</string>
+    <string name="valorar_boton_valorar">Valorar</string>
+    <string name="valorar_boton_cancelar">Cancelar</string>
+    <!-- Ventana Consultar Denuncia -->
+    <string name="consultar_cabecera">ALERTA</string>
+    <string name="consultar_valor_fecha">valor fecha</string>
+    <string name="consultar_etiqueta_comentario">Comentarios:</string>
+    <string name="consultar_valor_comentario">detalle comentario</string>
+    <string name="consultar_etiqueta_imagen">Consultar Imagen:</string>
+    <string name="consultar_etiqueta_progreso">Progreso</string>
+    <string name="consultar_valor_estado">detalle estado</string>
+    <string name="consultar_boton_aceptar">Aceptar</string>
+    <string name="consultar_boton_comentar">Comentar</string>
+    <string name="consultar_boton_valorar">Valorar</string>
+    <string name="title_activity_registro_city_wowzer">RegistroCityWowzer</string>
+    <string name="title_activity_listado_denuncias">ListadoDenuncias</string>
+    <string name="title_activity_listado_comentarios">ListadoComentarios</string>
+    <string name="title_activity_comentario">ComentarioActivity</string>
+    <!-- Ventana Mostrar Imagen -->
+    <string name="mostrar_imagen_boton_ok">Aceptar</string>
+    <string name="mostrar_imagen_descripcion">Descripcion de la Alerta</string>
+    <!-- Listado Denuncias Imagen -->
+    <string name="listado_denuncias_cabecera">Mis Denuncias</string>
+    <!-- Listado Comentarios -->
+    <string name="listado_comentarios_cabecera">Comentarios</string>
+    <!-- alguna cochinada de Yisheng era esto abajo -->
+    <string name="title_activity_imagen">ImagenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_mostrar_imagen">MostrarImagen</string>
+    <string name="title_activity_menu_configuracion">Menu configuracion</string>
+    <string name="consultar_cabecera_anuncio">Anuncio de Alcaldia</string>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jayktec.CityWowzer" >
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission." />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".LoginCityWowzer"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:noHistory="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.here.android.maps.appid"
+            android:value="r4AfsN9DDf81nVFmSDMT" />
+        <meta-data
+            android:name="com.here.android.maps.apptoken"
+            android:value="nSG956ya-LRH33LH_v9elw" />
+        <meta-data
+            android:name="com.here.android.maps.license.key"
+            android:value="a9v+dlsCmK/E5bgIcb/7Kt7LiABlYue4VBbzuzQ3Pv1M9anA8+Wcpqg9QwTOob6P3vxkP6r+ChUTuF19FVjgdVxx2aIeabdBS1WSYaMNyp+cBu5qH5YjMZ2IoS9Fm7Og4ybhuoIA/7yMgri+UZdYaarY/XSNIBfjgVDzcMUyXb0n4yVYsBaRK/fwD1FEYsKlEmvZ1ppzTy0oIxxJ88UVRWLaY6Mso9WhSaBxq0FzgUAuMX0FgLlArWllYTEE9BXoxUbVIUFPcjEqHGjOuZx92ATAn23+b34RbjHy31yxSKv3xSmV3wc6qO3Z6d79u+PntLULa2YDIrpdTJf9y7WferxOqGsyvc0GnU2hiTVgf9aeDbe3KebfSFt8zujDZ3DXmjwoI7KKrimshOPYmZLjZLV/lTZvsntW0PzY6kZ6BpNZwd1O7DPaaESLm7giUuf+blR/cjFHBH5dy4p5x0z15uyTmtgOJ41CMvOrzz1m6ibRLeTnGAanPeV5FLqPvFfxo4qwLCWTN1Tfek5a3rK0Ux86Y9oP1OExPsiQQf/lvoGv/SaxHYVlflJYQZg7pXogdIFntADsHKPZI1QQfJ3741csgzmnFxMKMn8/Zk13l33TrT9vjq5OgiiYy+Uy/3CFHxo+gib5y2U1cPbYdi9un7Bkj0Rs37pBfAq22QKd/E8=" />
+
+        <service
+            android:name="com.here.android.mpa.service.MapService"
+            android:exported="true"
+            android:label="HereMapService"
+            android:process="global.Here.Map.Service.v2" >
+            <intent-filter>
+                <action android:name="com.here.android.mpa.service.MapService" >
+                </action>
+            </intent-filter>
+        </service>
+        <service
+            android:name=".GPSTracker"
+            android:exported="true" >
+        </service>
+        <service
+            android:name=".ServicioSincronizacion"
+            android:exported="true" >
+        </service>
+
+        <activity
+            android:name=".ActividadMapaCityWowzer"
+            android:label="@string/title_activity_login_city_wowzer" >
+        </activity>
+        <activity
+            android:name=".RegistroCityWowzer"
+            android:label="@string/title_activity_registro_city_wowzer" >
+        </activity>
+        <activity
+            android:name=".ListadoDenuncias"
+            android:label="@string/title_activity_listado_denuncias" >
+        </activity>
+        <activity
+            android:name=".ListadoComentarios"
+            android:label="@string/title_activity_listado_comentarios" >
+        </activity>
+        <activity
+            android:name=".ComentarioActivity"
+            android:label="@string/title_activity_comentario" >
+        </activity>
+    </application>
+
+</manifest>

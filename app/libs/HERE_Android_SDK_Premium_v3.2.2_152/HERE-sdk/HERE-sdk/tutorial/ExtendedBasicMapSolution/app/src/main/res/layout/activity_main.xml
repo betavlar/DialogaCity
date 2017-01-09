@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- UI element declaration for "Go Home" button -->
+
+    <android.widget.Button
+        android:id="@+id/homebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="goHome"
+        android:text="@string/label_button_gohome" />
+
+    <!-- UI element declaration for "Change Map Scheme" button -->
+
+    <android.widget.Button
+        android:id="@+id/schemebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="changeScheme"
+        android:text="@string/label_button_changescheme" />
+
+    <!-- UI element declaration for "Current Map Scheme" display text -->
+
+    <fragment
+        android:id="@+id/mapfragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        class="com.here.android.mpa.mapping.MapFragment" />
+
+</LinearLayout>

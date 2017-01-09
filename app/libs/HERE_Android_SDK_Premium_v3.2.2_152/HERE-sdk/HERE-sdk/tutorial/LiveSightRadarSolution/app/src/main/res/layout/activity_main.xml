@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <!-- Composite Fragment exposes both Map and LiveSight functionality -->
+    <fragment
+        android:id="@+id/compositefragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.here.android.mpa.ar.CompositeFragment" />
+
+    <Button
+        android:id="@+id/startLiveSight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:onClick="startLiveSight"
+        android:text="@string/label_button_startlivesight" />
+
+    <Button
+        android:id="@+id/stopLiveSight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:onClick="stopLiveSight"
+        android:text="@string/label_button_stoplivesight"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/toggleObject"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="toggleObject"
+        android:text="@string/label_button_addobject" />
+
+</RelativeLayout>

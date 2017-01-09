@@ -1,0 +1,7 @@
+This tutorial application is provided with a set of HERE credentials: 
+
+- app_id ("com.here.android.maps.appid"),
+- app_code ("com.here.android.maps.apptoken"), and 
+- license key ("com.here.android.maps.license.key") 
+
+for evaluation purpose only.  These credentials should not be used for other applications.

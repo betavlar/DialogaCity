@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:id="@+id/contenedorPadre"
+    android:background="@drawable/fondo_comentario">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contenedorSuperior"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="2dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/IconoListadoItem" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/TextoComentarioItem"
+            android:textStyle="bold"
+            android:text="Me parece que lo que dicen aqui es una chafa"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="fill_parent"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:id="@+id/TextoIDComentarioItem"
+            android:textColor="@android:color/white"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/contenedorInferior"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="2dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuario:"
+            android:textColor="@android:color/holo_green_dark"
+            android:id="@+id/etiqComentarioUsuario"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="alex_manuel76"
+            android:id="@+id/comentarioItemTextoUsuario"
+            android:textColor="@android:color/widget_edittext_dark"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Fecha:"
+            android:textColor="@android:color/holo_green_dark"
+            android:id="@+id/comentarioItemEtiquetaFecha"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="2015-02-16"
+            android:id="@+id/comentarioItemTextoFecha"
+            android:textStyle="bold"
+            android:textColor="@android:color/widget_edittext_dark" />
+    </LinearLayout>
+
+
+</LinearLayout>

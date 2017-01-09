@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:id="@+id/layoutPadreImagen">
+
+
+    <ScrollView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/VentanaImagenScroll">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fondo_borde_login"
+            android:id="@+id/LayoutHijoImagen">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/registro_titulo_cabecera"
+                android:id="@+id/VentanaImagenCabecera"
+                android:drawableLeft="@drawable/logo"
+                android:textSize="20dp"
+                android:paddingLeft="10dp"
+                android:paddingTop="10dp"
+                android:textStyle="bold|italic"
+                android:gravity="center_vertical" />
+
+            <View style="@style/Separador"
+                android:layout_below="@+id/VentanaImagenCabecera"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="11dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mostrar_imagen_descripcion"
+                android:id="@+id/VentanaImgEtiqDescrip"
+                android:textSize="15sp"
+                android:textStyle="bold|italic"
+                android:textColorLink="@android:color/darker_gray"
+                android:layout_marginTop="15dp"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:layout_below="@+id/VentanaImagenCabecera" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/VentanaImgEtiqDetalle"
+                android:layout_below="@+id/VentanaImgEtiqDescrip"
+                android:textSize="18sp"
+                android:paddingLeft="20dp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="3dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/VentanaImgImagen"
+
+                android:layout_below="@+id/VentanaImgEtiqDetalle"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mostrar_imagen_boton_ok"
+                android:id="@+id/VentanaImgBotonOK"
+                android:layout_below="@+id/VentanaImgImagen"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/margenbotton"
+                android:layout_below="@+id/VentanaImgBotonOK" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

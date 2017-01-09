@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-3da96696d08d0eb3590f9ff35a545e7bbd2e1cd8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\gson-2.3.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\gson-2.3.1-9c9a973d705b5c8299320b4f90d58cfe8e037e65.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\classes-f3a0c68b95e1cf4938842792fac3a166c5016c89.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\HERE-sdk.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="2cbf8465288dde3f662da7cdd68da638d32228fc">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\HERE-sdk-28c636719be4da9cbce7dfababfae1491b42b8a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.0.0-jar-with-dependencies-b0aeba34abb012a3c6c521c9d5c3e1da6dfe27f9.jar" />
+    </item>
+    <item
+        jar="C:\Android SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-9816b427de2b7c90d0bda118e7e4b1efae3227f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\classes-3004f5b1969bfc4f746ad4cb1443db50741219a7.jar" />
+    </item>
+    <item
+        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\HERE-sdk-javadoc.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c2864ecf26f7c5af4d56b99f2b6b081b41405f50">
+        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\HERE-sdk-javadoc-ef287bd95adcff94751e2b66f50e5ac7b032c988.jar" />
+    </item>
+
+</items>

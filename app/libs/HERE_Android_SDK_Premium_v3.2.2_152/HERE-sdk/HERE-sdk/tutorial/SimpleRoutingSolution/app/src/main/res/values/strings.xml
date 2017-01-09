@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HelloHEREMaps</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Hello HERE Maps!</string>
+    <string name="label_button_getdirections">Get Directions</string>
+    <string name="textview_routecoordinates_2waypoints">Press "Get Directions" button to calculate a route:\nStart: BC Place Stadium\nEnd: Airport, YVR</string>
+</resources>

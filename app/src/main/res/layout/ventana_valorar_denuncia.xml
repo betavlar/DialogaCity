@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/fondo_borde_login"
+    android:padding="3dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/logo"
+        android:background="@color/accent_material_light"
+        android:text="@string/valorar_cabecera"
+        android:autoText="false"
+        android:gravity="center_vertical"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:id="@+id/EtiquetaVentanaValorar"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView3"
+        android:background="@android:color/transparent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ID01"
+            android:background="@android:color/transparent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/valorar_etiq_id"
+                android:id="@+id/EtiquetaIDVentanaValora"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valorar_valor_id"
+                android:id="@+id/TextoIdDenuncuaVentanaValora"
+                android:layout_below="@+id/EtiquetaIDVentanaValora"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/valorar_etiqueta_descripcion"
+                android:id="@+id/EtiquetaDescripcionVentanaValora"
+                android:layout_below="@+id/TextoIdDenuncuaVentanaValora"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/valorar_valor_descripcion"
+                android:id="@+id/TextoDescripcionVetanaValora"
+                android:layout_below="@+id/EtiquetaDescripcionVentanaValora"
+                android:layout_marginLeft="10dp" />
+
+            <View style="@style/Separador"
+                android:layout_below="@+id/TextoDescripcionVetanaValora"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp" />
+
+            <RatingBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/BarraEstrellasVentanaConsulta"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="30dp"
+                android:numStars="5"
+                android:stepSize="1"
+                android:layout_below="@+id/TextoDescripcionVetanaValora" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/botoneraValorar"
+                android:layout_below="@+id/BarraEstrellasVentanaConsulta"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/valorar_boton_valorar"
+                    android:id="@+id/BotonValorarVentanaValorar"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignWithParentIfMissing="false"
+                    android:layout_alignParentTop="false"
+                    android:layout_alignParentLeft="false"
+                    android:layout_alignParentRight="false"
+                    android:drawableLeft="@android:drawable/star_on"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/valorar_boton_cancelar"
+                    android:id="@+id/BotonCancelarVentanaValorar"
+                    android:layout_alignParentBottom="false"
+                    android:layout_alignParentRight="false"
+                    android:layout_alignParentEnd="true"
+                    android:drawableLeft="@android:drawable/ic_delete"
+                    style="@style/Widget.AppCompat.Button.ButtonBar.AlertDialog" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
