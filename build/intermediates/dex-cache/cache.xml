@@ -2,60 +2,94 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-3da96696d08d0eb3590f9ff35a545e7bbd2e1cd8.jar" />
+        sha1="f8efd0096475e0daf054267b61544e10dc776503">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.2.1_2fe7607f6d0688509ad155d4b16fc4ed7d5afefa/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\gson-2.3.1.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\gson-2.3.1-9c9a973d705b5c8299320b4f90d58cfe8e037e65.jar" />
+        sha1="4486e953d1f35f8ccab098b1dd67146366d5f731">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.2.1_7a7612f65b7ec7db65f37ae594c46830acb1dd48/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.2.1/support-annotations-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\classes-f3a0c68b95e1cf4938842792fac3a166c5016c89.jar" />
+        sha1="61a0ff5c29295ec56d7e0bd3d25d95dbf71b4b2b">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.2.1_fe7b53c461adba478fa14ba8399711c552d5daf9/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\HERE-sdk.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="2cbf8465288dde3f662da7cdd68da638d32228fc">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\HERE-sdk-28c636719be4da9cbce7dfababfae1491b42b8a4.jar" />
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_69e6829c098570c9d7f857af9860c28ac83f668d/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/libs/HERE-sdk.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="e039cfaf5d1591e3943b1c020a6d2a69d52b526c">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/2/HERE-sdk_e1a6248756cde2e30d895aa4f980c6178923b82b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.1/jars/libs/internal_impl-22.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="c471eaaba13ff64f6e0383d1c30a9cdc9a97efeb">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.2.1_32462d09ba09cc6a94666dc3d345e0b189467c6e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/libs/ksoap2-android-assembly-3.0.0-jar-with-dependencies.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
         sha1="224c93f1824fa17b96db7250c2e5e2703d45e052">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\ksoap2-android-assembly-3.0.0-jar-with-dependencies-b0aeba34abb012a3c6c521c9d5c3e1da6dfe27f9.jar" />
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/2/ksoap2-android-assembly-3.0.0-jar-with-dependencies_355cb0ab6c462e58100a6f5f97de620a33767f10/classes.dex" />
     </item>
     <item
-        jar="C:\Android SDK\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-9816b427de2b7c90d0bda118e7e4b1efae3227f6.jar" />
+        sha1="0e9db1734f5aa8462e9b8bcda76752b43b0ec81e">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_55c652f3ab3283b26732026daa2dd0ae4b14d50e/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/libs/gson-2.3.1.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\classes-3004f5b1969bfc4f746ad4cb1443db50741219a7.jar" />
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/2/gson-2.3.1_c1d9d4f278f263e8c2431c0a1a616a046a1753d3/classes.dex" />
     </item>
     <item
-        jar="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\libs\HERE-sdk-javadoc.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/vladimir/git/DialogaCity/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
         revision="22.0.1"
-        sha1="c2864ecf26f7c5af4d56b99f2b6b081b41405f50">
-        <dex dex="C:\Users\Alexander\AndroidStudioProjects\CityWowzer\app\build\intermediates\pre-dexed\debug\HERE-sdk-javadoc-ef287bd95adcff94751e2b66f50e5ac7b032c988.jar" />
+        sha1="8a074bdaf6535ee91009899d0421d19eeb8eb3d7">
+        <dex dex="/home/vladimir/git/DialogaCity/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5e6a85373600bdf5ccbef415f805692c3aab718a/classes.dex" />
     </item>
 
 </items>
